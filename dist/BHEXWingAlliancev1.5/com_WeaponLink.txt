@@ -1,0 +1,1 @@
+This has little meaning for fighters, but for capships it's the direct determiner of how many guns of this type it can fire (setting it to 2 for superlasers means it can only fire 2 superlasers at a time).

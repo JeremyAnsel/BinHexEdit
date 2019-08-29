@@ -1,0 +1,4 @@
+This slot defines the object type.
+
+0 = Craft
+2 = Satellite

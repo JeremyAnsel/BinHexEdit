@@ -1,0 +1,54 @@
+Ok for those who have added custom missions
+In single player mode you will know when you have reached
+Battle 7 : Mission 4: Phase #4: Death Star Tunnel Run
+You see the picture of the Falcon in the reactor core.
+
+But if you have added custom missions these last pictures are repeated for how many custom missions you have added.
+
+But not any longer
+
+With these Byte's you can change the number of Battles and Missions you have added.
+So with PalPatricks DATech you can add your own pictures.
+
+So know adding new missions you will be able to add you own pictures to a Dat file.
+
+So how does it work
+-------------------
+Well in the original TG Mission.lst you have 7 Battles and 52 Missions
+
+So if the max MISSION_x in mission.lst is 52, you put 53 in Mission Number box and 53 the Mission Sticker Number box
+
+If the max BATTLE_x in mission.lst is 7, put 8 in Battle Number Box.
+
+I think you get the general idea
+
+Battle 7 = 8
+Mission 52 = 53
+
+and so on
+
+The original settings are
+
+53 = mission number
+53 = mission sticker number
+8  = battle number
+
+Ok for example your adding 2 more battles with 5 missions in each battle
+
+It will look like this
+
+10
+63
+63
+
+10 = you have 9 Battles
+63 = means you have 62 mission in the mission.lst text files
+
+Note: If you change these numbers and you haven't added a new dat file with custom pictures, NO pictures will show ingame.
+
+Darksaber and PalPatrick
+
+
+
+
+

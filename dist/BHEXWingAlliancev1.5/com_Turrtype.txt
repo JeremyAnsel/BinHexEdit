@@ -1,0 +1,9 @@
+Enables/Disables dual laser types on starships and some rotation.
+
+0-Default setting. Enables rotating/tracking turrets. Capital ships will fire as they did in previous games.
+
+8-Activates long and short range lasers on capital ships. Also allows you to set what weapon a capital ship will fire (even missiles). Turns off rotating turrets.
+
+16-Makes the entire object roate about the Z-axis. Gunpads, satellites, and bouys use this. Very fast rotation, though, you probably shouldn't use it on a large ship.
+
+Other numbers appear to be either the same thing, or a combination of the effects of the above.

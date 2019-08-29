@@ -1,0 +1,266 @@
+265,XWA,,,
+0,X-Wing,1,,30
+24,Y-Wing,1,,30
+48,A-Wing,1,,30
+72,B-Wing,1,,30
+96,TIE Fighter,1,,30
+120,TIE Interceptor,1,,30
+144,TIE Bomber,1,,30
+168,TIE Advanced,1,,30
+192,TIE Defender,1,,30
+216,Authority IRD,1,,30
+240,Toscan Fighter,1,,30
+264,Missile Boat,1,,30
+288,T-Wing,1,,30
+312,Z-95 Headhunter,1,,30
+336,R-41 Starchaser,1,,30
+360,Assault Gunboat,1,,30
+384,Skipray Blastboat,1,,30
+408,TIE Exp. M1 (Bizarro),1,,30
+432,TIE Exp. M2 (BigGun),1,,30
+456,TIE Exp. M3 (Warheads),1,,30
+480,TIE Exp. M4 (Bomb),1,,30
+504,TIE Exp. M5 (Booster),1,,30
+528,Cloakshape Fighter,1,,30
+552,Razor Fighter,1,,30
+576,Planetary Fighter,1,,30
+600,Supa Fighter,1,,30
+624,Pinook Fighter,1,,30
+648,*Booster Pack,1,,30
+672,Preybird Fighter,1,,30
+696,*StarViper,1,,30
+720,Firespray (Slave I),1,,30
+744,Pursuer (Slave II),1,,30
+768,*Reserved Fighter,1,,30
+792,*Reserved Fighter,1,,30
+816,*Reserved Fighter,1,,30
+840,*Reserved Fighter,1,,30
+864,*Reserved Fighter,1,,30
+888,*Reserved Fighter,1,,30
+912,*Reserved Fighter,1,,30
+936,*Reserved Fighter,1,,30
+960,*Reserved Fighter,1,,30
+984,*Reserved Fighter,1,,30
+1008,Utility Tug,1,,30
+1032,Combat Utility Vehicle,1,,30
+1056,Heavy Lifter,1,,30
+1080,Mole Miner,1,,30
+1104,Escape Pod,1,,30
+1128,Escape Pod 2,1,,30
+1152,*Reserved Utility,1,,30
+1176,Shuttle,1,,30
+1200,Escort Shuttle,1,,30
+1224,Stormtrooper Transport,1,,30
+1248,Assault Transport,1,,30
+1272,Escort Transport,1,,30
+1296,System Patrol Craft,1,,30
+1320,Scout Craft,1,,30
+1344,Muurian Transport,1,,30
+1368,YT-1300 Corellian Transport,1,,30
+1392,Millennium Falcon (YT-1300),1,,30
+1416,YT-2400 (Outrider),1,,30
+1440,Imperial Landing Craft,1,,30
+1464,Assault Shuttle,1,,30
+1488,Luxury Yacht LT3000,1,,30
+1512,Ferryboat Liner,1,,30
+1536,YT-2000 (Otana),1,,30
+1560,*Reserved Shuttle,1,,30
+1584,*Reserved Shuttle,1,,30
+1608,*Reserved Shuttle,1,,30
+1632,*Reserved Shuttle,1,,30
+1656,*Reserved Shuttle,1,,30
+1680,Container A,1,,30
+1704,Container B,1,,30
+1728,Container C,1,,30
+1752,Container D,1,,30
+1776,Container E,1,,30
+1800,Container F,1,,30
+1824,Container G,1,,30
+1848,Container H,1,,30
+1872,Container I,1,,30
+1896,Cargo Canister,1,,30
+1920,Pressure Tank,1,,30
+1944,Container J,1,,30
+1968,Container K,1,,30
+1992,Container L,1,,30
+2016,Container Hangar,1,,30
+2040,*Reserved Container,1,,30
+2064,*Reserved Container,1,,30
+2088,*Reserved Container,1,,30
+2112,*Reserved Container,1,,30
+2136,*Reserved Container,1,,30
+2160,Bulk Freighter,1,,30
+2184,Cargo Ferry,1,,30
+2208,Modular Conveyor,1,,30
+2232,Container Transport,1,,30
+2256,Medium Transport,1,,30
+2280,Star Galleon,1,,30
+2304,Modified Action Transport,1,,30
+2328,Mobquet Transport,1,,30
+2352,Xiytiar Transport,1,,30
+2376,Freighter Type C,1,,30
+2400,Freighter Type H,1,,30
+2424,Freighter Type K,1,,30
+2448,*Freighter Type L,1,,30
+2472,*Freighter Type P,1,,30
+2496,Cargo Freighter,1,,30
+2520,*Cargo Freighter 2,1,,30
+2544,*Cargo Freighter 3,1,,30
+2568,*Cargo Freighter 4,1,,30
+2592,*Cargo Freighter 5,1,,30
+2616,Cargo Tanker,1,,30
+2640,*Cargo Tanker 2,1,,30
+2664,*Cargo Tanker 3,1,,30
+2688,*Cargo Tanker 4,1,,30
+2712,*Cargo Tanker 5,1,,30
+2736,Suprosa,1,,30
+2760,*Reserved Freighter,1,,30
+2784,*Reserved Freighter,1,,30
+2808,*Reserved Freighter,1,,30
+2832,*Reserved Freighter,1,,30
+2856,*Reserved Freighter,1,,30
+2880,*Reserved Freighter,1,,30
+2904,*Reserved Freighter,1,,30
+2928,*Reserved Freighter,1,,30
+2952,*Reserved Freighter,1,,30
+2976,*Reserved Freighter,1,,30
+3000,Corellian Corvette,1,,30
+3024,Modified Corvette,1,,30
+3048,Nebulon-B Frigate,1,,30
+3072,Modified Frigate,1,,30
+3096,Passenger Liner,1,,30
+3120,Carrack Cruiser,1,,30
+3144,Strike Cruiser,1,,30
+3168,Escort Carrier,1,,30
+3192,Dreadnaught,1,,30
+3216,MC80a Calamari Cruiser,1,,30
+3240,MC40a Light Calamari Cruiser,1,,30
+3264,Interdictor Im-418,1,,30
+3288,Victory Class Star Destroyer,1,,30
+3312,Imperial Class Star Destroyer,1,,30
+3336,Super Star Destroyer,1,,30
+3360,*Modified Strike Cruiser,1,,30
+3384,Lancer Frigate,1,,30
+3408,Bulk Crusier,1,,30
+3432,Assault Frigate,1,,30
+3456,Corellian Gunship,1,,30
+3480,Marauder Corvette,1,,30
+3504,Imperial Research Ship,1,,30
+3528,Winged Calamari Cruiser,1,,30
+3552,Victory Class Star Destroyer II,1,,30
+3576,Imperial Class Star Destroyer II,1,,30
+3600,*Reserved Starship,1,,30
+3624,*Reserved Starship,1,,30
+3648,XQ1 Platform,1,,30
+3672,XQ2 Platform,1,,30
+3696,XQ3 Platform,1,,30
+3720,XQ4 Platform,1,,30
+3744,XQ5 Platform,1,,30
+3768,XQ6 Platform,1,,30
+3792,Asteroid Hangar,1,,30
+3816,Deep Space Manufacturing Factory,1,,30
+3840,Shipyard,1,,30
+3864,Repair Yard,1,,30
+3888,Golan One,1,,30
+3912,Golan Two,1,,30
+3936,Golan Three,1,,30
+3960,Derilyn Platform,1,,30
+3984,Sensor Array,1,,30
+4008,Comm Relay,1,,30
+4032,Space Colony 1,1,,30
+4056,Space Colony 2,1,,30
+4080,Space Colony 3,1,,30
+4104,Casino (Dunari's Rest),1,,30
+4128,Cargo Facility 1,1,,30
+4152,Cargo Facility 2,1,,30
+4176,Asteroid Mining Unit,1,,30
+4200,Processing Plant,1,,30
+4224,Rebel Platform,1,,30
+4248,Imperial Research Center,1,,30
+4272,Family Base,1,,30
+4296,Family Repair Yard,1,,30
+4320,Pirate Shipyard,1,,30
+4344,Industrial Complex,1,,30
+4368,*Pirate Junkyard Base,1,,30
+4392,*Reserved Station,1,,30
+4416,*Reserved Station,1,,30
+4440,*Reserved Station,1,,30
+4464,*Reserved Station,1,,30
+4488,*Reserved Station,1,,30
+4512,*Reserved Station,1,,30
+4536,*Reserved Station,1,,30
+4560,*Reserved Station,1,,30
+4584,New Laser Battery,1,,30
+4608,New Ion Battery,1,,30
+4632,Asteroid Laser Battery,1,,30
+4656,Asteroid Warhaead Launcher,1,,30
+4680,Gun Emplacement,1,,30
+4704,Large Gun Emplacement,1,,30
+4728,Large Gun /Warhead Emplacement,1,,30
+4752,*Homing Mine A,1,,30
+4776,Homing Mine B,1,,30
+4800,Proximity Mine A,1,,30
+4824,Proximity Mine B,1,,30
+4848,Rebel Pilot,1,,30
+4872,Imperial Pilot,1,,30
+4896,Civilian Pilot,1,,30
+4920,Zero G Stormtrooper,1,,30
+4944,Zero G Worker,1,,30
+4968,MK-09 Droid,1,,30
+4992,R2-D2 Droid,1,,30
+5016,Comm Sat 1,1,,30
+5040,Comm Sat 2,1,,30
+5064,Comm Sat 3,1,,30
+5088,Probe,1,,30
+5112,Probe Capsule,1,,30
+5136,Nav Buoy 1,1,,30
+5160,Nav Buoy 2,1,,30
+5184,Nav Buoy 3,1,,30
+5208,Hyper Buoy,1,,30
+5232,Accelerator Ring,1,,30
+5256,Laser Accelerator Ring I,1,,30
+5280,Laser Accelerator Ring II,1,,30
+5304,Unknown,1,,30
+5328,Unknown,1,,30
+5352,Unknown,1,,30
+5376,Unknown,1,,30
+5400,Unknown,1,,30
+5424,Unknown,1,,30
+5448,Unknown,1,,30
+5472,Unknown,1,,30
+5496,Unknown,1,,30
+5520,Unknown,1,,30
+5544,Unknown,1,,30
+5568,Unknown,1,,30
+5592,Unknown,1,,30
+5616,Unknown,1,,30
+5640,Unknown,1,,30
+5664,Unknown,1,,30
+5688,Unknown,1,,30
+5712,Unknown,1,,30
+5736,Unknown,1,,30
+5760,Unknown,1,,30
+5784,Unknown,1,,30
+5808,Unknown,1,,30
+5832,Unknown,1,,30
+5856,Unknown,1,,30
+5880,Unknown,1,,30
+5904,Unknown,1,,30
+5928,Unknown,1,,30
+5952,Unknown,1,,30
+5976,Unknown,1,,30
+6000,Unknown,1,,30
+6024,Unknown,1,,30
+6048,Unknown,1,,30
+6072,Unknown,1,,30
+6096,Unknown,1,,30
+6120,Unknown,1,,30
+6144,Unknown,1,,30
+6168,Unknown,1,,30
+6192,Unknown,1,,30
+6216,Unknown,1,,30
+6240,Unknown,1,,30
+6264,Unknown,1,,30
+6288,Unknown,1,,30
+6312,Unknown,1,,30
+6336,Unknown,1,,30

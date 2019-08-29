@@ -1,0 +1,3 @@
+9 changes the weapon's type. 9 is for 95% of the slots, a couple have different numbers, you should experiment with them all.
+
+dreddnott

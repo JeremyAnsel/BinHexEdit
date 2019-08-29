@@ -1,0 +1,136 @@
+* Author:  Zoë Zenobia, Demon, Hell Raiser, Brian, dreddnott & Matt, Michael Anderson, Darksaber, JC & Jérémy Ansel (JeremyaFr)
+* Revision:  1.5
+* Revision Author: Darksaber with info from Jérémy Ansel (JeremyaFr)
+* Date: January 18, 2019
+
+Description:
+-----------------------------------------------------------------------
+XWABHE is a BinHexEdit Module for the executable file 'xwingalliance.exe' of X-Wing Alliance (XWA).
+
+If you own this excellent version of the awesome flight simulator produced by Lucasarts / Totally Games, you will be able to modify craft statistics so that you can add some more excitement to the game.
+
+The disclaimers in the program apply to this project.  Use at your own risk.  This is meant to be used for researching additional characteristics, and is not final.  Some characteristics are missing and not yet deciphered!  So, slicers, get to it. If you're using this, this means you!
+
+What's New in v1.5
+-----------------------------------------------------------------------
+* Adds Object Type byte. 
+
+What's New in v1.4
+-----------------------------------------------------------------------
+* Just rearranged the Pat_LightShips, Pat_MediumShips and Pat_HeavyShips CSV files to be more user friendly. 
+
+What's New in v1.3
+-----------------------------------------------------------------------
+* Allows you change the number of pictures that show in single player for battle and mission.
+
+What's New in v1.2
+-----------------------------------------------------------------------
+* This version is compatible with XWA v2.02 only.
+* Adds the ship HUD Icon information for the first 71 slots.
+* Allow you to show an Icon for a reserved craft slot, instead of having a blank screen (Default Icons ONLY).
+* Adds the Map Icons information upto slot 221.
+* Allows you to change the Map Icons, that you see in the Map View in-game.
+
+What's New in v1.1
+-----------------------------------------------------------------------
+* This version is compatible with XWA v2.02 only.
+* S-foil Information for the first 50 slots.
+* Species pointer information. Allows you to change the slot a species points to
+
+What's New in v1.0
+-----------------------------------------------------------------------
+* This version is compatible with XWA v2.02 only.
+* Adds all turret information, courtesy of Trident.
+* Adds engine sounds for first 65 slots, rack coordinates, and allows all 255 characters of the cockpit file to be entered.
+* Attempting to seek and destroy all typos!
+
+What's New in v0.9.9
+-----------------------------------------------------------------------
+* This version is compatible with XWA v2.02 only.
+* Adds another weapon enable byte (Trident) and fixes a bad Weapon Duration typo.
+
+What's New in v0.9.8
+-----------------------------------------------------------------------
+* This version is compatible with XWA v2.02 only.
+* Adds weapon score bytes (Fingolfin) and craft targettable/untargettable bytes (Trident).
+
+What's New in v0.9.7
+-----------------------------------------------------------------------
+* This version is compatible with XWA v2.02 only.
+* Adds weapon behaviour bytes, found by Draconious.
+
+What's New in v0.9.6
+-----------------------------------------------------------------------
+* This version is compatible with XWA v2.02 only.
+* Adds a couple bytes to change laser fire ratio. Found by Drakken.
+
+What's New in v0.9.5
+-----------------------------------------------------------------------
+* This version is compatible with XWA v2.02 only.
+* Adds a pattern to enable/disable certain weapons.  Found by Hell Raiser.
+
+What's New in v0.9.4
+-----------------------------------------------------------------------
+* This version is compatible with XWA v2.02 only.
+* Adds capship laser range values, as well as enable byte(?) in short 24-byte section.
+
+
+What's New in V0.9.3
+-----------------------------------------------------------------------
+* This version is compatible with XWA V2.02 only.
+* Fixed a bug that reported the DS II laser power incorrectly, fixed!
+* Added lst changing for weapons, 1 is for equipment.lst, and others are unknown.
+
+What's New in V0.9.2
+-----------------------------------------------------------------------
+* This version is compatible with XWA V2.02 only.
+* More weapons have been added for editing, and also, you can now edit, which opt the weapon, will use!
+
+What's New in V0.9.1
+-----------------------------------------------------------------------
+* This version is compatible with XWA V2.02 only.
+* Weapon Stats!  'Nuff said....
+
+What's New in V0.9.0 A
+-----------------------------------------------------------------------
+* This version is compatible with XWA V2.02 only.
+* Allow you to move the "camera" in which you will look out of  (thanks to dreddnott for pointing me to the right offsets for me to do some digging).
+
+What's New in V0.9.0
+-----------------------------------------------------------------------
+* This version is compatible with XWA V2.02 only.
+* Enables reserved slots. Thank you, Jedi Hunter.
+
+What's New in V0.8.0
+-----------------------------------------------------------------------
+* This version is compatible with XWA V2.02 only.
+* This is the same as 0.7.3 functionally, but with offsets adjusted for XWA version 2.02.
+
+What's New in V0.7.3
+-----------------------------------------------------------------------
+* Added dreddnott's weapon types in comment file (dreddnott@geocities.com), thank you Dreddnott!
+
+What's New in V0.7.2
+-----------------------------------------------------------------------
+* Added Location of OPT File & Ship Type Editing.
+
+What's New in V0.7.1
+-----------------------------------------------------------------------
+* Added a cockpit file cross-reference to allow patch write.
+
+What's New in V0.7.0
+-----------------------------------------------------------------------
+* This version is compatible with XWA V2.01 only.
+* Added the Sensitivity to Enemy Fire & System Rating to Ion Fire
+* Added Mines, Droids, Satellites, Buoys and Accelerator rings sections
+* Added the Weapon Editing Parameters. Be extremely careful when using them because most of the data are coupled with info stored in OPT file.
+* Very Special Thanks to Riley Man, Draconious, Demon, and all the guys on OPT Project Board.
+
+Credits:
+-----------------------------------------------------------------------
+* Zoë - Project concept and groundwork
+* Demon - Updates, Icon design and Aesthetics
+
+Huge Credits:
+-----------------------------------------------------------------------
+Our friends at LA and TG.  Thanks for not making XWA impossible to slice, because you could have...

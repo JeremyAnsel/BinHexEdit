@@ -1,0 +1,4 @@
+Enter a number for the amount of countermeasures. XWA capships (unlike XvT capships) do not seem to make use of them.
+The in-game value is 2/3rds of the BHE value, rounded up, so if you specify 10, in-game will be 6.666..., or just 7.
+
+Researched and tested by dreddnott

@@ -1,0 +1,3 @@
+1 means the AI will target fighters with this weapon, 2 means the AI will target capital ships with it. 0 is used on lasers, and if you set it to 1 or 2 for lasers, the AI will still fire them at whatever it wants to, but they will explode, you will be able to target them, and they will give the proximity warning when they get near, but they won't guide. They will also spin your craft around when they hit you, so you could make a control jammer-style weapon.
+
+dreddnott

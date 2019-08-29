@@ -1,0 +1,2 @@
+Use 1, 2, and 3 for regular fighter lasers (3 may also be linked to CORT turrets, but works fine as forward-firing third laser).
+1 for the first laser, 2 for the second, and 3 for the third laser system. 4 and 5 are used on capships, set the first (turbos) to 4 and second (supers) to 5.

@@ -1,0 +1,1 @@
+Divide by 105, then truncate to integer, then times 4 to get the actual XWA value.

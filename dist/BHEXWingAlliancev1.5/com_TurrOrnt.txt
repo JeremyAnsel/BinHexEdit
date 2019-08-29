@@ -1,0 +1,4 @@
+What angle the turret is oriented at initially. Trident can't remember which is which, but but one of them is which direction the top of the pod points on the X axis, and the other one is which direction the foward section of the .opt points.
+
+--
+dreddnott

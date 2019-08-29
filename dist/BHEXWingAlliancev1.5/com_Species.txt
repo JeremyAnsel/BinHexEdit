@@ -1,0 +1,291 @@
+
+Assign ship ID number to a certain species.
+To enable Species 226 with Reserved Fighter 1,
+input 21 in the Species 226 (DontUseMe, the slot
+above Death Star II) slot, then go to Enable
+Ships pattern and set 03 for Reserved Fighter 1.
+
+* All the DontUseMe slots should be OK to add in
+  whatever ship desired. The Unused Slot is a
+  blank space between Species Table and the
+  following data, but it seems to work out OK.
+
+* Additional work will be to change the data in
+  shiplist.txt, specdesc.txt, strings.txt, and
+  spacecraft0.lst (Addressed in OPTLocation
+  Pattern).
+
+* Species 183 is assigned a ship ID# that's
+  currently unknown, any further tests on it
+  will be helpful.
+
+* Species 227 is not assigned, however, in the
+  shiplist.txt it is used by DSII. Any further
+  test will also be helpful.
+
+
+  1     X-Wing
+  2     Y-Wing
+  3     A-Wing
+  4     B-Wing
+  5     TIE Fighter
+  6     TIE Interceptor
+  7     TIE Bomber
+  8     TIE Advanced
+  9     TIE Defender
+ 10     Authority IRD
+ 11     Toscan Fighter
+ 12     Missile Boat (SLAM Slot?)
+ 13     T-Wing
+ 14     Z-95 Headhunter
+ 15     R-41 Starchaser
+ 16     Assault Gunboat
+ 17     Skipray Blastboat
+ 18     TIE Exp. M1 (Bizarro)
+ 19     TIE Exp. M2 (BigGun)
+ 20     TIE Exp. M3 (Warheads)
+ 21     TIE Exp. M4 (Bomb)
+ 22     TIE Exp. M5 (Booster)
+ 23     Cloakshape Fighter
+ 24     Razor Fighter
+ 25     Planetary Fighter
+ 26     Supa Fighter
+ 27     Pinook Fighter
+ 28     *Booster Pack
+ 29     Preybird Fighter
+ 30     *StarViper
+ 31     Firespray (Slave I)
+ 32     Pursuer (Slave II)
+ 33     *Reserved Fighter
+ 34     *Reserved Fighter
+ 35     *Reserved Fighter
+ 36     *Reserved Fighter
+ 37     *Reserved Fighter
+ 38     *Reserved Fighter
+ 39     *Reserved Fighter
+ 40     *Reserved Fighter
+ 41     *Reserved Fighter
+ 42     *Reserved Fighter
+ 43     Utility Tug
+ 44     Combat Utility Vehicle
+ 45     Heavy Lifter
+ 46     Mole Miner
+ 47     Escape Pod
+ 48     Escape Pod 2
+ 49     *Reserved Utility
+ 50     Shuttle
+ 51     Escort Shuttle
+ 52     Stormtrooper Transport
+ 53     Assault Transport
+ 54     Escort Transport
+ 55     System Patrol Craft
+ 56     Scout Craft
+ 57     Muurian Transport
+ 58     YT-1300 Corellian Transport
+ 59     Millennium Falcon (YT-1300)
+ 60     YT-2400 (Outrider)
+ 61     Imperial Landing Craft
+ 62     Assault Shuttle
+ 63     Luxury Yacht LT3000
+ 64     Ferryboat Liner
+ 65     YT-2000 (Otana)
+ 66     *Reserved Shuttle
+ 67     *Reserved Shuttle
+ 68     *Reserved Shuttle
+ 69     *Reserved Shuttle
+ 70     *Reserved Shuttle
+ 71     Container A
+ 72     Container B
+ 73     Container C
+ 74     Container D
+ 75     Container E
+ 76     Container F
+ 77     Container G
+ 78     Container H
+ 79     Container I
+ 80     Cargo Canister
+ 81     Pressure Tank
+ 82     Container J
+ 83     Container K
+ 84     Container L
+ 85     Container Hangar
+ 86     *Reserved Container
+ 87     *Reserved Container
+ 88     *Reserved Container
+ 89     *Reserved Container
+ 90     *Reserved Container
+ 91     Bulk Freighter
+ 92     Cargo Ferry
+ 93     Modular Conveyor
+ 94     Container Transport
+ 95     Medium Transport
+ 96     Star Galleon
+ 97     Modified Action Transport
+ 98     Mobquet Transport
+ 99     Xiytiar Transport
+100     Freighter Type C
+101     Freighter Type H
+102     Freighter Type K
+103     *Freighter Type L
+104     *Freighter Type P
+105     Cargo Freighter
+106     *Cargo Freighter 2
+107     *Cargo Freighter 3
+108     *Cargo Freighter 4
+109     *Cargo Freighter 5
+110     Cargo Tanker
+111     *Cargo Tanker 2
+112     *Cargo Tanker 3
+113     *Cargo Tanker 4
+114     *Cargo Tanker 5
+115     Suprosa
+116     *Reserved Freighter
+117     *Reserved Freighter
+118     *Reserved Freighter
+119     *Reserved Freighter
+120     *Reserved Freighter
+121     *Reserved Freighter
+122     *Reserved Freighter
+123     *Reserved Freighter
+124     *Reserved Freighter
+125     *Reserved Freighter
+126     Corellian Corvette
+127     Modified Corvette
+128     Nebulon-B Frigate
+129     Modified Frigate
+130     Passenger Liner
+131     Carrack Cruiser
+132     Strike Cruiser
+133     Escort Carrier
+134     Dreadnaught
+135     MC80a Calamari Cruiser
+136     MC40a Light Calamari Cruiser
+137     Interdictor Im-418
+138     Victory Class Star Destroyer
+139     Imperial Class Star Destroyer
+140     Super Star Destroyer
+141     *Modified Strike Cruiser
+142     Lancer Frigate
+143     Bulk Crusier
+144     Assault Frigate
+145     Corellian Gunship
+146     Marauder Corvette
+147     Imperial Research Ship
+148     Winged Calamari Cruiser
+149     Victory Class Star Destroyer II
+150     Imperial Class Star Destroyer II
+151     *Reserved Starship
+152     *Reserved Starship
+153     XQ1 Platform
+154     XQ2 Platform
+155     XQ3 Platform
+156     XQ4 Platform
+157     XQ5 Platform
+158     XQ6 Platform
+159     Asteroid Hangar
+160     Deep Space Manufacturing Factory
+161     Shipyard
+162     Repair Yard
+163     Golan One
+164     Golan Two
+165     Golan Three
+166     Derilyn Platform
+167     Sensor Array
+168     Comm Relay
+169     Space Colony 1
+170     Space Colony 2
+171     Space Colony 3
+172     Casino (Dunari's Rest)
+173     Cargo Facility 1
+174     Cargo Facility 2
+175     Asteroid Mining Unit
+176     Processing Plant
+177     Rebel Platform
+178     Imperial Research Center
+179     Family Base
+180     Family Repair Yard
+181     Pirate Shipyard
+182     Industrial Complex
+183     *Pirate Junkyard Base
+184     *Reserved Station
+185     *Reserved Station
+186     *Reserved Station
+187     *Reserved Station
+188     *Reserved Station
+189     *Reserved Station
+190     *Reserved Station
+191     *Reserved Station
+192     New Laser Battery
+193     New Ion Battery
+194     Asteroid Laser Battery
+195     Asteroid Warhaead Launcher
+196     Gun Emplacement
+197     Large Gun Emplacement
+198     Large Gun /Warhead Emplacement
+199     *Homing Mine A
+200     Homing Mine B
+201     Proximity Mine A
+202     Proximity Mine B
+203     Rebel Pilot
+204     Imperial Pilot
+205     Civilian Pilot
+206     Zero G Stormtrooper
+207     Zero G Worker
+208     MK-09 Droid
+209     R2-D2 Droid
+210     Comm Sat 1
+211     Comm Sat 2
+212     Comm Sat 3
+213     Probe
+214     Probe Capsule
+215     Nav Buoy 1
+216     Nav Buoy 2
+217     Nav Buoy 3
+218     Hyper Buoy
+219     Accelerator Ring
+220     Laser Accelerator Ring I
+221     Laser Accelerator Ring II
+222     Unknown
+223     Unknown
+224     Unknown
+225     Unknown
+226     Unknown
+227     Unknown
+228     Unknown
+229     Unknown
+230     Unknown
+231     Unknown
+232     Unknown
+233     Unknown
+234     Unknown
+235     Unknown
+236     Unknown
+237     Unknown
+238     Unknown
+239     Unknown
+240     Unknown
+241     Unknown
+242     Unknown
+243     Unknown
+244     Unknown
+245     Unknown
+246     Unknown
+247     Unknown
+248     Unknown
+249     Unknown
+250     Unknown
+251     Unknown
+252     Unknown
+253     Unknown
+254     Unknown
+255     Unknown
+256     Unknown
+257     Unknown
+258     Unknown
+259     Unknown
+260     Unknown
+261     Unknown
+262     Unknown
+263     Unknown
+264     Unknown
+265     Unknown

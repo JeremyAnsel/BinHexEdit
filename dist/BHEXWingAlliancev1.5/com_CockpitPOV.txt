@@ -1,0 +1,7 @@
+This section is to allow you to edit the "camera" point of view in the craft slot.  To get the 3d cockpit where you want it, edit the opt and put a Cockpit Hardpoint where you want the 3d cockpit to be.
+
+When looking straight ahead in the cockpit, X is left and right, Y is forward and back, and Z is up and down.
+
+Values are -32,768 to 32,767 (signed 2-byte short integer)
+
+Hell Raiser

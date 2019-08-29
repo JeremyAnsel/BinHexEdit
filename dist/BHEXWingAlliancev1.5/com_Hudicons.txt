@@ -1,0 +1,32 @@
+At this present moment in time it will only let you use the Default icons set in the DAT files, as these cannot be changed as yet.
+
+0 - No Icon
+100 - X-Wing = slot 1
+200 - Y-Wing = slot 2
+300 - A-Wing = slot 3
+400 - B-Wing = slot 4
+500 - TIE Fighter = slot 5
+600 - TIE Interceptor = slot 6
+
+And so on until you come to slot 33 (First Reserved Fighter), these are set to 0 for the next 17 slots
+
+If you have a Custom Craft in one of the reserved slots replace the 0 with a number ranging from 100 to 4600 (in the hundreds) i.e. an icon that resembles your custom craft).
+
+3200 - Shuttle = slot 50
+The next slot (50) for some reason LA/TG set the Escape Shuttle value as 0, but if one puts 3300 in place of the zero, the Escort Shuttle icon shows up in the HUD
+
+3400 - Stormtrooper Transport = slot 52
+
+And so again until slot 59 Millennium Falcon this value (4000) is set the same as the YT-1300 (slot 58), for obvious reasons.
+
+4100 - YT-2400 (Outrider) = slot 60
+to
+4600 - YT-2000 (Otana) = slot 65
+
+Slot 66 (First Reserved Shuttle)
+to
+Slot 71 (Container A) all set to 0
+
+Darksaber & JC
+
+

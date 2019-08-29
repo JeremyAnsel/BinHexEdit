@@ -1,0 +1,291 @@
+290,XWA,
+Mission Pictures,27,1429870
+HUD Icons,25,1738250
+MAP Icons,26,1739482
+Weapons - Power,10,1790136
+Weapons - Speed,11,1790248
+Weapons - Duration,12,1790304
+Weapons - Type,13,1790416
+Weapons - Behaviour,18,1790472
+Weapons - Score,20,1790504
+Weapons - OPT File,14,2078870
+Weapons - Lst Location,15,2078868
+Weapons - Enabled,17,2078848
+Weapons - Other Enabled,21,2078849
+Cockpit File Cross Ref,4,1810610
+Craft Targetable,19,2072168
+OPT File Location 1,5,2072172
+OPT File Location 2,6,2072174
+Enable Ships,8,2072152
+Object Type,28,2072154
+Ship Type,7,2072155
+Species Table,9,1768306
+Species Pointer,24,2072170
+Second Weapons Systems,16,2072169
+Engine Sounds,22,247896
+S-Foil Enabled,23,3136
+X-Wing,1,1810568
+Y-Wing,1,1811555
+A-Wing,1,1812542
+B-Wing,1,1813529
+TIE Fighter,1,1814516
+TIE Interceptor,1,1815503
+TIE Bomber,1,1816490
+TIE Advanced,1,1817477
+TIE Defender,1,1818464
+Authority IRD,1,1819451
+Toscan Fighter,1,1820438
+Missile Boat,1,1821425
+T-Wing,1,1822412
+Z-95 Headhunter,1,1823399
+R-41 Starchaser,1,1824386
+Assault Gunboat,1,1825373
+Skipray Blastboat,1,1826360
+TIE Exp. M1 (Bizarro),1,1827347
+TIE Exp. M2 (BigGun),1,1828334
+TIE Exp. M3 (Warheads),1,1829321
+TIE Exp. M4 (Bomb),1,1830308
+TIE Exp. M5 (Booster),1,1831295
+Cloakshape Fighter,1,1832282
+Razor Fighter,1,1833269
+Planetary Fighter,1,1834256
+Supa Fighter,1,1835243
+Pinook Fighter,1,1836230
+*Booster Pack,1,1837217
+Preybird Fighter,1,1838204
+*StarViper,1,1839191
+Firespray (Slave I),1,1840178
+Pursuer (Slave II),1,1841165
+*Reserved Fighter,1,1842152
+*Reserved Fighter,1,1843139
+*Reserved Fighter,1,1844126
+*Reserved Fighter,1,1845113
+*Reserved Fighter,1,1846100
+*Reserved Fighter,1,1847087
+*Reserved Fighter,1,1848074
+*Reserved Fighter,1,1849061
+*Reserved Fighter,1,1850048
+*Reserved Fighter,1,1851035
+Utility Tug,1,1852022
+Combat Utility Vehicle,1,1853009
+Heavy Lifter,1,1853996
+Mole Miner,1,1854983
+Escape Pod,1,1855970
+Escape Pod 2,1,1856957
+*Reserved Utility,1,1857944
+Shuttle,1,1858931
+Escort Shuttle,1,1859918
+Stormtrooper Transport,1,1860905
+Assault Transport,1,1861892
+Escort Transport,1,1862879
+System Patrol Craft,1,1863866
+Scout Craft,1,1864853
+Muurian Transport,1,1865840
+YT-1300 Corellian Transport,1,1866827
+Millennium Falcon (YT-1300),1,1867814
+YT-2400 (Outrider),1,1868801
+Imperial Landing Craft,1,1869788
+Assault Shuttle,1,1870775
+Luxury Yacht LT3000,1,1871762
+Ferryboat Liner,2,1872749
+YT-2000 (Otana),1,1873736
+*Reserved Shuttle,1,1874723
+*Reserved Shuttle,1,1875710
+*Reserved Shuttle,1,1876697
+*Reserved Shuttle,1,1877684
+*Reserved Shuttle,1,1878671
+Container A,2,1879658
+Container B,2,1880645
+Container C,2,1881632
+Container D,2,1882619
+Container E,2,1883606
+Container F,2,1884593
+Container G,2,1885580
+Container H,2,1886567
+Container I,2,1887554
+Cargo Canister,2,1888541
+Pressure Tank,2,1889528
+Container J,2,1890515
+Container K,2,1891502
+Container L,2,1892489
+Container Hangar,2,1893476
+*Reserved Container,2,1894463
+*Reserved Container,2,1895450
+*Reserved Container,2,1896437
+*Reserved Container,2,1897424
+*Reserved Container,2,1898411
+Bulk Freighter,2,1899398
+Cargo Ferry,2,1900385
+Modular Conveyor,2,1901372
+Container Transport,2,1902359
+Medium Transport,2,1903346
+Star Galleon,2,1904333
+Modified Action Transport,2,1905320
+Mobquet Transport,2,1906307
+Xiytiar Transport,2,1907294
+Freighter Type C,2,1908281
+Freighter Type H,2,1909268
+Freighter Type K,2,1910255
+*Freighter Type L,2,1911242
+*Freighter Type P,2,1912229
+Cargo Freighter,2,1913216
+*Cargo Freighter 2,2,1914203
+*Cargo Freighter 3,2,1915190
+*Cargo Freighter 4,2,1916177
+*Cargo Freighter 5,2,1917164
+Cargo Tanker,2,1918151
+*Cargo Tanker 2,2,1919138
+*Cargo Tanker 3,2,1920125
+*Cargo Tanker 4,2,1921112
+*Cargo Tanker 5,2,1922099
+Suprosa,2,1923086
+*Reserved Freighter,2,1924073
+*Reserved Freighter,2,1925060
+*Reserved Freighter,2,1926047
+*Reserved Freighter,2,1927034
+*Reserved Freighter,2,1928021
+*Reserved Freighter,2,1929008
+*Reserved Freighter,2,1929995
+*Reserved Freighter,2,1930982
+*Reserved Freighter,2,1931969
+*Reserved Freighter,2,1932956
+Corellian Corvette,2,1933943
+Modified Corvette,2,1934930
+Nebulon-B Frigate,3,1935917
+Modified Frigate,3,1936904
+Passenger Liner,3,1937891
+Carrack Cruiser,3,1938878
+Strike Cruiser,3,1939865
+Escort Carrier,3,1940852
+Dreadnaught,3,1941839
+MC80a Calamari Cruiser,3,1942826
+MC40a Light Calamari Cruiser,3,1943813
+Interdictor Im-418,3,1944800
+Victory Class Star Destroyer,3,1945787
+Imperial Class Star Destroyer,3,1946774
+Super Star Destroyer,3,1947761
+*Modified Strike Cruiser,3,1948748
+Lancer Frigate,3,1949735
+Bulk Cruiser,3,1950722
+Assault Frigate,3,1951709
+Corellian Gunship,2,1952696
+Marauder Corvette,3,1953683
+Imperial Research Ship,3,1954670
+Winged Calamari Cruiser,3,1955657
+Victory Class Star Destroyer II,3,1956644
+Imperial Class Star Destroyer II,3,1957631
+*Reserved Starship,3,1958618
+*Reserved Starship,3,1959605
+XQ1 Platform,3,1960592
+XQ2 Platform,3,1961579
+XQ3 Platform,3,1962566
+XQ4 Platform,3,1963553
+XQ5 Platform,3,1964540
+XQ6 Platform,3,1965527
+Asteroid Hangar,3,1966514
+X7 Deep Space Manufacturing Facility,3,1967501
+Shipyard,3,1968488
+Repair Yard,3,1969475
+Golan One,3,1970462
+Golan Two,3,1971449
+Golan Three,3,1972436
+Derilyn Platform,3,1973423
+Sensor Array,3,1974410
+Comm Relay,3,1975397
+Space Colony 1,3,1976384
+Space Colony 2,3,1977371
+Space Colony 3,3,1978358
+Casino (Dunari's Rest),3,1979345
+Cargo Facility 1,3,1980332
+Cargo Facility 2,3,1981319
+Asteroid Mining Unit,3,1982306
+Processing Plant,3,1983293
+Rebel Platform,3,1984280
+Imperial Research Center,3,1985267
+Family Base,3,1986254
+Family Repair Yard,3,1987241
+Pirate Shipyard,3,1988228
+Industrial Complex,3,1989215
+*Pirate Junkyard Base,3,1990202
+*Reserved Station,3,1991189
+*Reserved Station,3,1992176
+*Reserved Station,3,1993163
+*Reserved Station,3,1994150
+*Reserved Station,3,1995137
+*Reserved Station,3,1996124
+*Reserved Station,3,1997111
+*Reserved Station,3,1998098
+New Laser Battery,1,1999085
+New Ion Battery,1,2000072
+Asteroid Laser Battery,1,2001059
+Asteroid Warhaead Launcher,1,2002046
+Gun Emplacement,1,2003033
+Large Gun Emplacement,1,2004020
+Large Gun /Warhead Emplacement,1,2005007
+*Homing Mine A,1,2005994
+Homing Mine B,1,2006981
+Proximity Mine A,1,2007968
+Proximity Mine B,1,2008955
+Rebel Pilot,1,2009942
+Imperial Pilot,1,2010929
+Civilian Pilot,1,2011916
+Zero G Stormtrooper,1,2012903
+Zero G Worker,1,2013890
+MK-09 Droid,1,2014877
+R2-D2 Droid,1,2015864
+Comm Sat 1,1,2016851
+Comm Sat 2,1,2017838
+Comm Sat 3,1,2018825
+Probe,1,2019812
+Probe Capsule,1,2020799
+Nav Buoy 1,1,2021786
+Nav Buoy 2,1,2022773
+Nav Buoy 3,1,2023760
+Hyper Buoy,1,2024747
+Accelerator Ring,1,2025734
+Laser Accelerator Ring I,1,2026721
+Laser Accelerator Ring II,1,2027708
+Unknown,1,2028695
+Unknown,1,2029682
+Unknown,1,2030669
+Unknown,1,2031656
+Unknown,1,2032643
+Unknown,1,2033630
+Unknown,1,2034617
+Unknown,1,2035604
+Unknown,1,2036591
+Unknown,1,2037578
+Unknown,1,2038565
+Unknown,1,2039552
+Unknown,1,2040539
+Unknown,1,2041526
+Unknown,1,2042513
+Unknown,1,2043500
+Unknown,1,2044487
+Unknown,1,2045474
+Unknown,1,2046461
+Unknown,1,2047448
+Unknown,1,2048435
+Unknown,1,2049422
+Unknown,1,2050409
+Unknown,1,2051396
+Unknown,1,2052383
+Unknown,1,2053370
+Unknown,1,2054357
+Unknown,1,2055344
+Unknown,1,2056331
+Unknown,1,2057318
+Unknown,1,2058305
+Unknown,1,2059292
+Unknown,1,2060279
+Unknown,1,2061266
+Unknown,1,2062253
+Unknown,1,2063240
+Unknown,1,2064227
+Unknown,1,2065214
+Unknown,1,2066201
+Unknown,1,2067188
+Unknown,1,2068175
+Unknown,1,2069162
+Unknown,1,2070149
+Unknown,1,2071136

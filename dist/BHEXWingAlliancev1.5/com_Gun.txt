@@ -1,0 +1,4 @@
+Enter:
+"0" for No Gun Convergence System
+"1" for Manual Gun Convergence System
+"2" for Auto Gun Convergence System

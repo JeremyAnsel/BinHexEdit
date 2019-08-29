@@ -1,0 +1,1 @@
+Not completely sure, but for now, put it to 1 for each laser that uses this rack.

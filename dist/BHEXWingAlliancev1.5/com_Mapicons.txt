@@ -1,0 +1,386 @@
+With this info you can change the Map Icons
+that appear in map view in-game
+
+Here is the following conversions tables
+
+  1    100  X-wing
+  2    200  Y-wing
+  3    300  A-wing
+  4    400  B-wing
+  5   1200  TIE Fighter
+  6   1300  TIE Interceptor
+  7    900  TIE Bomber
+  8    500  TIE Advanced
+  9   1100  TIE Defender
+ 10   4500  IRD Fighter
+ 11  16400  Toscan Fighter
+ 12   5600  Missile Boat
+ 13  16800  T-wing
+ 14  17200  Z-95 Headhunter
+ 15  14000  R-41 Starchaser
+ 16   9200  Assault Gunboat
+ 17  15200  Skipray Blastboat
+ 18    700  TIE X/1
+ 19    600  TIE X/2
+ 20   1400  TIE X/3
+ 21    800  TIE X/4
+ 22   1000  TIE X/5
+ 23   9000  Cloakshape Fighter
+ 24  14100  Razor Fighter
+ 25   7200  Planetary Fighter
+ 26  16100  Supa Fighter
+ 27   6900  Pinook Fighter
+ 28   9900  Booster 
+ 29   7900  Preybird Fighter
+ 30      0  StarViper
+ 31  15300  Firespray Attack Ship
+ 32  15400  Pursuer Enforcement Ship
+ 33      0  craft 33
+ 34      0  craft 34
+ 35      0  craft 35
+ 36      0  craft 36
+ 37      0  craft 37
+ 38      0  craft 38
+ 39      0  craft 39
+ 40      0  craft 40
+ 41      0  craft 41
+ 42      0  craft 42
+ 43  16500  Tug
+ 44  11000  Combat Utility Vehicle
+ 45   3800  Heavy Lifter
+ 46   6300  Mole Miner
+ 47   1800  Escape Pod
+ 48   1900  Escape Pod
+ 49      0  craft 49
+ 50  15100  Shuttle
+ 51   2100  Escort Shuttle
+ 52   2300  Transport
+ 53   9400  Assault Trans
+ 54   2200  Escort Trans
+ 55  16300  Patrol Craft
+ 56  14800  Scout Craft
+ 57   6400  Muurian Trans
+ 58   5200  YT-1300 Transport
+ 59   5200  Millennium Falcon
+ 60   6700  YT-2400 Transport
+ 61   4000  Landing Craft
+ 62   9300  Assault Shuttle
+ 63   4900  Luxury Yacht 3000
+ 64   2600  Ferryboat Liner
+ 65   8000  YT-2000 Transport
+ 66      0  craft 66
+ 67      0  craft 67
+ 68      0  craft 68
+ 69      0  craft 69
+ 70      0  craft 70
+ 71  11300  Container A
+ 72  12000  Container B
+ 73  12600  Container C
+ 74  12200  Container D
+ 75  11900  Container E
+ 76  12300  Container F
+ 77  12100  Container G
+ 78  11500  Container H
+ 79  12700  Container I
+ 80  10500  Cargo Canister
+ 81  13600  Pressure Tank
+ 82  11600  Container J
+ 83  11200  Container K
+ 84  12400  Container L
+ 85  11800  Container Hgr
+ 86      0  craft 86
+ 87      0  craft 87
+ 88      0  craft 88
+ 89      0  craft 89
+ 90      0  craft 90
+ 91   2900  Bulk Freighter
+ 92  10700  Cargo Ferry
+ 93   6200  Modular Conveyor
+ 94  12500  Container Trans
+ 95  16700  Medium Transport
+ 96  15800  Star Galleon
+ 97   8200  Mod Action IV Trans
+ 98   8300  Mobquet Transport
+ 99  17100  Xiytiar Transport
+100   2800  Freight Transport/C
+101   3000  Freight Transport/H
+102   2700  Freight Transport/K
+103      0  Freight Transport/L
+104      0  Tanker
+105      0  Cargo Freighter
+106      0  Cargo Freighter 2
+107      0  Cargo Freighter 3
+108      0  Cargo Freighter 4
+109      0  Cargo Freighter 5
+110      0  Cargo Tanker
+111      0  Cargo Tanker 2
+112      0  Cargo Tanker 3
+113      0  Cargo Tanker 4
+114      0  Cargo Tanker 5
+115  16200  Special Bulk Freighter
+116      0  craft 116
+117      0  craft 117
+118      0  craft 118
+119      0  craft 119
+120      0  craft 120
+121      0  craft 121
+122      0  craft 122
+123      0  craft 123
+124      0  craft 124
+125      0  craft 125
+126   1500  Corellian Corvette
+127   5900  Mod. Corvette
+128   3100  Nebulon B Frigate
+129   6000  Nebulon B-2 Frigate
+130   6800  C-3 Passenger Liner
+131  10800  Carrack Cruiser
+132  16000  Strike Cruiser
+133   2000  Escort Carrier
+134   1700  Dreadnaught
+135  13300  Calamari Cruiser
+136   4800  Lt Calamari Cruiser
+137  13000  Interdictor
+138  13200  Victory Star Destroyer
+139  12900  Imperial Star Destroyer
+140  13100  Super Star Destroyer
+141  16700  Mod. Strike Cruiser
+142   4600  Lancer Frigate
+143  10000  Bulk Cruiser
+144   9100  Assault Frigate
+145   8600  Corellian Gunship
+146   8700  Marauder Corvette
+147   4200  Special Research Ship
+148  10400  Calamari Cruiser
+149  13200  Victory Star Destroyer II
+150  12900  Imperial Star Destroyer II
+151      0  craft 151
+152      0  craft 152
+153   7300  Platform XQ1
+154   7400  Platform XQ2
+155   7500  Platform XQ3
+156   7600  Platform XQ4
+157   7700  Platform XQ5
+158   7800  Platform XQ6
+159   9500  R+D Facility
+160   2400  X7 Factory
+161  15000  Shipyard 1
+162  14300  Repair Yard 1
+163   3200  Golan 1
+164   3300  Golan 2
+165   3400  Golan 3
+166   1600  Derilyn Platform
+167  14900  Sensor Array
+168  11100  Comm Relay
+169  15500  Space Colony 1
+170  15600  Space Colony 2
+171  15700  Space Colony 3
+172  10900  Casino
+173  10600  Cargo Facility 1
+174   8800  Cargo Facility 2
+175   9700  Asteroid Mining Unit
+176  13500  Processing Plant
+177  14200  Rebel Platform
+178   4100  Research Center
+179   8900  Azzameen Home Base
+180   2500  Repair Yard 2
+181   7100  Shipyard 2
+182   4300  Industrial Complex
+183   7100  Junkyard
+184      0  craft 184
+185      0  craft 185
+186      0  craft 186
+187      0  craft 187
+188      0  craft 188
+189      0  craft 189
+190      0  craft 190
+191      0  craft 191
+192   4700  Laser Battery
+193   4400  Ion Battery
+194   4700  Laser Battery
+195   9800  Warhead Launcher
+196   3700  Gun Platform
+197   3500  Gun Pad
+198   3600  Gun/Warhead Pad
+199   3900  Homing Mine
+200   3900  Homing Mine
+201   5300  Proximity Mine
+202   5400  Proximity Mine
+203   7000  Rebel Pilot
+204   7000  Imperial Pilot
+205   7000  Civ Pilot
+206  17300  Zero G Stormtrooper
+207  17400  Zero G Worker
+208   5100  MK-09 Droid
+209  13900  R2-D2 Droid
+210  14700  Comm Sat 1
+211  14400  Comm Sat 2
+212  14500  Comm Sat 3
+213  12800  Probe
+214  13400  Probe Capsule
+215  10100  Nav Buoy 1
+216  10200  Nav Buoy 2
+217  10300  Nav Buoy 3
+218  10300  Hyper Buoy
+219   5300  Accelerator Ring
+220   5400  Laser Accelerator Ring
+221   5500  Laser Accelerator Ring II
+
+CONVERSION
+
+    0 (none)
+  100 X-wing
+  200 Y-wing
+  300 A-wing
+  400 B-wing
+  500 TIE Advanced
+  600 TIE X/2
+  700 TIE X/1
+  800 TIE X/4
+  900 TIE Bomber
+ 1000 TIE X/5
+ 1100 TIE Defender
+ 1200 TIE Fighter
+ 1300 TIE Interceptor
+ 1400 TIE X/3
+ 1500 Corellian Corvette
+ 1600 Derilyn Platform
+ 1700 Dreadnaught
+ 1800 Escape Pod
+ 1900 Escape Pod
+ 2000 Escort Carrier
+ 2100 Escort Shuttle
+ 2200 Escort Trans
+ 2300 Transport
+ 2400 X7 Factory
+ 2500 Repair Yard 2
+ 2600 Ferryboat Liner
+ 2700 Freight Transport/K
+ 2800 Freight Transport/C
+ 2900 Bulk Freighter
+ 3000 Freight Transport/H
+ 3100 Nebulon B Frigate
+ 3200 Golan 1
+ 3300 Golan 2
+ 3400 Golan 3
+ 3500 Gun Pad
+ 3600 Gun/Warhead Pad
+ 3700 Gun Platform
+ 3800 Heavy Lifter
+ 3900 Homing Mine
+ 4000 Landing Craft
+ 4100 Research Center
+ 4200 Special Research Ship
+ 4300 Industrial Complex
+ 4400 Ion Battery
+ 4500 IRD Fighter
+ 4600 Lancer Frigate
+ 4700 Laser Battery
+ 4800 Lt Calamari Cruiser
+ 4900 Luxury Yacht 3000
+ 5100 MK-09 Droid
+ 5200 YT-1300 Transport
+ 5300 Proximity Mine
+ 5400 Proximity Mine
+ 5500 Laser Accelerator Ring II
+ 5600 Missile Boat
+ 5900 Mod. Corvette
+ 6000 Nebulon B-2 Frigate
+ 6200 Modular Conveyor
+ 6300 Mole Miner
+ 6400 Muurian Trans
+ 6700 YT-2400 Transport
+ 6800 C-3 Passenger Liner
+ 6900 Pinook Fighter
+ 7000 Rebel Pilot
+ 7100 Shipyard 2
+ 7200 Planetary Fighter
+ 7300 Platform XQ1
+ 7400 Platform XQ2
+ 7500 Platform XQ3
+ 7600 Platform XQ4
+ 7700 Platform XQ5
+ 7800 Platform XQ6
+ 7900 Preybird Fighter
+ 8000 YT-2000 Transport
+ 8200 Mod Action IV Trans
+ 8300 Mobquet Transport
+ 8600 Corellian Gunship
+ 8700 Marauder Corvette
+ 8800 Cargo Facility 2
+ 8900 Azzameen Home Base
+ 9000 Cloakshape Fighter
+ 9100 Assault Frigate
+ 9200 Assault Gunboat
+ 9300 Assault Shuttle
+ 9400 Assault Trans
+ 9500 R+D Facility
+ 9700 Asteroid Mining Unit
+ 9800 Warhead Launcher
+ 9900 Booster 
+10000 Bulk Cruiser
+10100 Nav Buoy 1
+10200 Nav Buoy 2
+10300 Nav Buoy 3
+10400 Calamari Cruiser
+10500 Cargo Canister
+10600 Cargo Facility 1
+10700 Cargo Ferry
+10800 Carrack Cruiser
+10900 Casino
+11000 Combat Utility Vehicle
+11100 Comm Relay
+11200 Container K
+11300 Container A
+11500 Container H
+11600 Container J
+11800 Container Hgr
+11900 Container E
+12000 Container B
+12100 Container G
+12200 Container D
+12300 Container F
+12400 Container L
+12500 Container Trans
+12600 Container C
+12700 Container I
+12800 Probe
+12900 Imperial Star Destroyer
+13000 Interdictor
+13100 Super Star Destroyer
+13200 Victory Star Destroyer
+13300 Calamari Cruiser
+13400 Probe Capsule
+13500 Processing Plant
+13600 Pressure Tank
+13900 R2-D2 Droid
+14000 R-41 Starchaser
+14100 Razor Fighter
+14200 Rebel Platform
+14300 Repair Yard 1
+14400 Comm Sat 2
+14500 Comm Sat 3
+14700 Comm Sat 1
+14800 Scout Craft
+14900 Sensor Array
+15000 Shipyard 1
+15100 Shuttle
+15200 Skipray Blastboat
+15300 Firespray Attack Ship
+15400 Pursuer Enforcement Ship
+15500 Space Colony 1
+15600 Space Colony 2
+15700 Space Colony 3
+15800 Star Galleon
+16000 Strike Cruiser
+16100 Supa Fighter
+16200 Special Bulk Freighter
+16300 Patrol Craft
+16400 Toscan Fighter
+16500 Tug
+16700 Medium Transport
+16800 T-wing
+17100 Xiytiar Transport
+17200 Z-95 Headhunter
+17300 Zero G Stormtrooper
+17400 Zero G Worker
+

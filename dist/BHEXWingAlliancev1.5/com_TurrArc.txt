@@ -1,0 +1,4 @@
+Set all the arcs to 32767 and orients to 0 and get a full firing sphere. The meaning of these numbers change radically depending on how Orient is set.
+
+--
+dreddnott

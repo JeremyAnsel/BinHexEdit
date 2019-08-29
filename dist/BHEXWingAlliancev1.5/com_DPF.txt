@@ -1,0 +1,2 @@
+Roll + (2 * Pitch) = DPF
+i.e. 40 + (2 * 20) = 80 DPF

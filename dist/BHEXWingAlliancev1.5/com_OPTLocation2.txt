@@ -1,0 +1,23 @@
+The number in this slot plus one is which line to 
+read OPT file description in the file assigned by 
+OPTLocation 1.
+
+
+For example, the 9th line in SPACECRAFT0.LST 
+is \FLIGHTMODELS\TIEDEFENDER.OPT, so 
+you would see 8 in this slot. If you replace 8 with 
+11 in this slot, you would have a T/D disguised as 
+Missile Boat. You can't fly it yet, because the 
+hardpoint info does not match, you need to change a
+lot of weapon info because T/D has 6 guns and 2 W/Hs
+while MIS has only 1 gun but 4 W/Hs. But it's fun to 
+see it in tech library and let you know how this slot 
+works..:)
+
+There are 154 & 159 lines in the original 
+SPACECRAFT0.LST & EQUIPMENT0.LST
+respectively. So, when adding OPTs, simply add 
+\FLIGHTMODELS\YOURCRAFT.OPT 
+after the lines already there, and input the 
+numbmer starting 154 (159 for the other file) 
+in this slot.

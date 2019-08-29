@@ -1,0 +1,3 @@
+This will set the range of a capital ship's secondary weapons system (usually the long range turbolasers)
+
+The byte represents the distance in "MILES", for the range in kilometers, multiply by 1.6 (i.e. 4 miles ~ 6 km)

@@ -1,0 +1,3 @@
+0 is spacecraft0lst, and 1 is equipment0.lst. Others are unknown at this time.
+
+Hell Raiser

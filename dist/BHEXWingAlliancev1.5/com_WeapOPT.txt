@@ -1,0 +1,3 @@
+The number corresponds with the line in equipment0.lst. (from 0 to 158)  So if you want to make it have a new opt, add a line at the bottom of equipment0.lst, say, FLIGHTMODELS\MyWeaponOPT.opt, and input 159.
+
+Hell Raiser

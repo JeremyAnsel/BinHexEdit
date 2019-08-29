@@ -1,0 +1,1 @@
++/-32,767 coordinate, it works just like in OPT Explore or Cockpit Coords.

@@ -1,0 +1,47 @@
+This slot defines the ship type.
+
+VERY IMPORTANT NOTE:
+If you have read the comment about shield & hull
+rating editing in this project, you would know
+that different ship type has different way to
+calculate its shield rating and hull strength.
+However, the comment file is pre-assigned in the
+project and thus when you change a ship's type,
+say fighter to capital ship, the comment would
+still be for fighter, i.e. divide by 50 to get
+actual XWA value. If you follow that comment,
+your shield (or hull) would be 16 times stronger
+of your expected rating. Be careful.
+
+Updated!!! Some of these will crash XWA.
+Everything beyond 20 gets erroneous
+names from fronttxt.txt and crashes XWA.
+
+Light ships:
+00 for fighter
+01 for shuttle/light transport
+02 for utility craft
+
+Medium Ships:
+03 for freighter/heavy transport
+17 for container
+
+Heavy Ships:
+04 for starship
+05 for station
+
+Misc:
+06 for player projectile
+07 for other projectile
+08 for accelerator ring
+09 for satellite/buoy
+10 for normal debris
+11 for small debris
+12 for backdrop
+13 for explosion
+14 for obstacle (invincible)
+15 for Death Star II
+16 for people
+18 for droid
+19 for weapon emplacement/mine
+20 for large debris

@@ -1,0 +1,4 @@
+As simple as the other coordinates, it determines exactly where your viewpoint will be.
+
+--
+dreddnott

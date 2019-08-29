@@ -1,0 +1,29 @@
+These bytes let you edit the S-foil properties of the first 50 craft.  It's not as simple as you'd expect it to be.
+
+This is NOT ALL of the S-foil information, you still cannot give craft other than the X-wing or B-wing fully working S-foils.  This is elsewhere in the EXE, and has yet to be found.
+
+=====================================
+"Has S-foils" Line:
+These is the line that actually activates/deactivates the S-foils.  Here's what XWA has as default.
+
+0 - X-wing
+1 - B-wing
+2 - Missile Boat
+3 - Gunboat, Blastboat
+4 - Shuttle
+5 - DEACTIVATES
+
+The "5" is the important part.  It will deactivate ANY S-foil functions of the craft.  For craft like the Gunboat and Missile Boat, it will allow them to fire guns in single-player, instead of displaying the "S-foils closed" message.
+
+Changing the B-wing's "1" to a "0" didn't appear to affect anything, so I suppose, so for simplicity, use "0" to activate, and "5" to deactivate. 
+
+Finally, if you deactivate the s-foils (on the X-wing, for example), but don't change the "start mode" line, the foils will be closed the entire mission, but weapons can still be fired from them.
+
+=====================================
+"Start Mode" line:
+This is the line that determines what the "default" setting of your S-foils are.  The values here are typically the same as in the "Has Foils" line.
+
+Setting it to "5" will have the S-foils start opened (on X-wing and B-wing).  Anything else will have them start closed.
+
+
+NOTE: SETTING ANY OF THE BYTES TO A VALUE GREATER THAN "5" WILL CRASH XWA!

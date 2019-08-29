@@ -1,0 +1,233 @@
+232,XWA,,,
+0,X-wing,2,,21
+2,Y-wing,2,,21
+4,A-wing,2,,21
+6,B-wing,2,,21
+8,TIE Fighter,2,,21
+10,TIE Interceptor,2,,21
+12,TIE Bomber,2,,21
+14,TIE Advanced,2,,21
+16,TIE Defender,2,,21
+18,Authority IRD,2,,21
+20,Toscan Fighter,2,,21
+22,Missile Boat,2,,21
+24,T-wing,2,,21
+26,Z-95,2,,21
+28,R-41,2,,21
+30,Gunboat,2,,21
+32,Shuttle,2,,21
+34,Escort Shuttle,2,,21
+36,Sys Patrol Craft,2,,21
+38,Scout Craft,2,,21
+40,Stormtrpr Trans,2,,21
+42,Assault Trans,2,,21
+44,Escort Trans,2,,21
+46,Tug,2,,21
+48,Combat Util Vehicle,2,,21
+50,CN/A Brick,2,,21
+52,CN/B Hexbox,2,,21
+54,CN/C Tube,2,,21
+56,CN/D Pronged,2,,21
+58,Heavy Lifter,2,,21
+60,Mole Miner,2,,21
+62,Bulk Freighter,2,,21
+64,Cargo Ferry,2,,21
+66,Modular Conveyor,2,,21
+68,Container Trans,2,,21
+70,Rebel Med Transport,2,,21
+72,Muurian Transport,2,,21
+74,Corellian Trans,2,,21
+76,Millenium Falcon,2,,21
+78,Corvette,2,,21
+80,Modified Corvette,2,,21
+82,Nebulon B Frigate,2,,21
+84,Mod Neb B Frigate,2,,21
+86,Passenger Liner,2,,21
+88,Carrack Cruiser,2,,21
+90,Strike Cruiser,2,,21
+92,Escort Carrier,2,,21
+94,Dreadnaught,2,,21
+96,Calamari Cruiser,2,,21
+98,Lt Calamari Cruiser,2,,21
+100,Interdictor,2,,21
+102,Vict Star Dest,2,,21
+104,Imp Star Dest,2,,21
+106,SSD,2,,21
+108,CN/E Hemisphere,2,,21
+110,CN/F Slotted,2,,21
+112,CN/G Hourglass,2,,21
+114,CN/H Gem,2,,21
+116,CN/I Y shaped,2,,21
+118,Platform 1,2,,21
+120,Platform 2,2,,21
+122,Platform 3,2,,21
+124,Platform 4,2,,21
+126,Platform 5,2,,21
+128,Platform 6,2,,21
+130,Asteroid Hangar,2,,21
+132,Ast Laser Bat,2,,21
+134,Ast Warhd Launcher,2,,21
+136,Factory,2,,21
+138,Satellite1,2,,21
+140,Satellite2,2,,21
+142,Satellite3,2,,21
+144,*Satellite4,2,,21
+146,*Satellite5,2,,21
+148,Mine1,2,,21
+150,Mine2,2,,21
+152,Mine3,2,,21
+154,GunPlatform,2,,21
+156,*Mine5,2,,21
+158,Probe1,2,,21
+160,Probe Capsule,2,,21
+162,*Probe3,2,,21
+164,Buoy1,2,,21
+166,Buoy2,2,,21
+168,Hyper buoy,2,,21
+170,Asteroid,2,,21
+172,Planet,2,,21
+174,Rendezvous Buoy,2,,21
+176,Cargo Canister,2,,21
+178,Shipyard,2,,21
+180,Repair Yard,2,,21
+182,*Mod Strike Cruiser,2,,21
+184,Lancer Frigate,2,,21
+186,Bulk Cruiser,2,,21
+188,Assault Frigate,2,,21
+190,Corellian Gunship,2,,21
+192,Imp Landing Craft,2,,21
+194,Assault Shuttle,2,,21
+196,Marauder Corvette,2,,21
+198,Star Galleon,2,,21
+200,Imp Research Ship,2,,21
+202,Luxury Yacht 3000,2,,21
+204,Ferryboat Liner,2,,21
+206,Mod Action Trans,2,,21
+208,Mobquet Transport,2,,21
+210,Xiytiar Transport,2,,21
+212,Freight Transport/C,2,,21
+214,Freight Transport/H,2,,21
+216,Freight Transport/K,2,,21
+218,YT-2000,2,,21
+220,YT-2400,2,,21
+222,Suprosa,2,,21
+224,Skipray Blastboat,2,,21
+226,TIE Experimental M1,2,,21
+228,TIE Experimental M2,2,,21
+230,TIE Experimental M3,2,,21
+232,TIE Experimental M4,2,,21
+234,TIE Experimental M5,2,,21
+236,Cloakshape Fighter,2,,21
+238,Razor Fighter,2,,21
+240,Planetary Fighter,2,,21
+242,Supa Fighter,2,,21
+244,Pinook Fighter,2,,21
+246,*Booster Pack,2,,21
+248,Preybird Fighter,2,,21
+250,*StarViper,2,,21
+252,Firespray,2,,21
+254,Pursuer,2,,21
+256,Golan One,2,,21
+258,Golan Two,2,,21
+260,Golan Three,2,,21
+262,Derilyn Platform,2,,21
+264,Sensor Array,2,,21
+266,Comm Relay,2,,21
+268,Space Colony 1,2,,21
+270,Space Colony 2,2,,21
+272,Space Colony 3,2,,21
+274,Casino,2,,21
+276,Cargo Facility 1,2,,21
+278,Cargo Facility 2,2,,21
+280,Ast Mining Unit,2,,21
+282,Processing Plant,2,,21
+284,Rebel Platform,2,,21
+286,Imp Research Center,2,,21
+288,Family Base,2,,21
+290,Family Repair Yard,2,,21
+292,Pirate Ship Yard,2,,21
+294,Industrial Complex,2,,21
+296,*Pirate Junkyd Base,2,,21
+298,Escape Pod Type 1,2,,21
+300,Pressure Tank,2,,21
+302,CN/J Grande,2,,21
+304,CN/K Box,2,,21
+306,CN/L Sphere,2,,21
+308,CN/Hangar,2,,21
+310,Lrg Gun Emplace,2,,21
+312,Lrg Gun/Wrhd Empl,2,,21
+314,Proximity Mine A,2,,21
+316,Proximity Mine B,2,,21
+318,*Homing Mine A,2,,21
+320,Homing Mine B,2,,21
+322,New Laser battery,2,,21
+324,New Ion battery,2,,21
+326,Cargo Freighter,2,,21
+328,*Cargo Freighter 2,2,,21
+330,*Cargo Freighter 3,2,,21
+332,*Cargo Freighter 4,2,,21
+334,*Cargo Freighter 5,2,,21
+336,Cargo Tanker,2,,21
+338,*Cargo Tanker 2,2,,21
+340,*Cargo Tanker 3,2,,21
+342,*Cargo Tanker 4,2,,21
+344,*Cargo Tanker 5,2,,21
+346,Escape Pod Type 2,2,,21
+348,Rebel Pilot,2,,21
+350,Imp Pilot,2,,21
+352,Civ Pilot,2,,21
+354,ZeroG Stormtrooper,2,,21
+356,ZeroG Utility,2,,21
+358,Emkay,2,,21
+360,Astromech Droid,2,,21
+362,Worker Droid,2,,21
+364,BACKDROP,2,,21
+366,*DontUseMe,2,,21
+368,*DontUseMe,2,,21
+370,*DontUseMe,2,,21
+372,*DontUseMe,2,,21
+374,*DontUseMe,2,,21
+376,*DontUseMe,2,,21
+378,*DontUseMe,2,,21
+380,*DontUseMe,2,,21
+382,*DontUseMe,2,,21
+384,*DontUseMe,2,,21
+386,*DontUseMe,2,,21
+388,*DontUseMe,2,,21
+390,*DontUseMe,2,,21
+392,*DontUseMe,2,,21
+394,*DontUseMe,2,,21
+396,*DontUseMe,2,,21
+398,*DontUseMe,2,,21
+400,*DontUseMe,2,,21
+402,*DontUseMe,2,,21
+404,*DontUseMe,2,,21
+406,*DontUseMe,2,,21
+408,*DontUseMe,2,,21
+410,*DontUseMe,2,,21
+412,*DontUseMe,2,,21
+414,*DontUseMe,2,,21
+416,*DontUseMe,2,,21
+418,*DontUseMe,2,,21
+420,*DontUseMe,2,,21
+422,*DontUseMe,2,,21
+424,*DontUseMe,2,,21
+426,*DontUseMe,2,,21
+428,*DontUseMe,2,,21
+430,*DontUseMe,2,,21
+432,*DontUseMe,2,,21
+434,*DontUseMe,2,,21
+436,*DontUseMe,2,,21
+438,*DontUseMe,2,,21
+440,*DontUseMe,2,,21
+442,*DontUseMe,2,,21
+444,*DontUseMe,2,,21
+446,*DontUseMe,2,,21
+448,*DontUseMe,2,,21
+450,*DontUseMe,2,,21
+452,Death Star II,2,,21
+454,Winged Calamari Cruiser,2,,21
+456,Vict Star Dest II,2,,21
+458,Imp Star Dest II,2,,21
+460,*DontUseMe,2,,21
+462,*Unused Slot,2,,21

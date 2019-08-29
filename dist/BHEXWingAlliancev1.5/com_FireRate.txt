@@ -1,0 +1,3 @@
+Adjusts the rate of fire for the specified weapon (how many weapons it can fire before it waits to fire again)
+
+Lower numbers increase the rate it can fire.

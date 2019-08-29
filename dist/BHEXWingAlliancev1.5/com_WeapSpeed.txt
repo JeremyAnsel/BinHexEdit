@@ -1,0 +1,4 @@
+The bigger the number, the faster it goes.  I dunno how it would convert over to MGLT's. Along with your crafts speed affecting speed of the weapon, just use the current values of the weapons to get an estimate of what you want.
+
+Hell Raiser
+

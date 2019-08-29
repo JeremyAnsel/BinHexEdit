@@ -1,0 +1,4 @@
+This determines whether the craft can be targeted by player craft. AI craft will still target it, though.
+
+67-can be targeted
+64-cannot be targeted

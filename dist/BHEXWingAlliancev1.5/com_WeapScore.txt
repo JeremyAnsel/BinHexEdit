@@ -1,0 +1,2 @@
+This byte lets you set the score taken away from your team's total when you fire a particular warhead.
+Setting it to 0 can make it easier on Missile Boat players, or you can set it higher to give a big penalty for firing, say, a Mace tactical thermonuclear bomb. The translation to XWA's score is unknown.

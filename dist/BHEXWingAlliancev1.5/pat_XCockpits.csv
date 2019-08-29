@@ -1,0 +1,266 @@
+265,XWA,,,
+0,X-Wing,4,255,1
+987,Y-Wing,4,255,1
+1974,A-Wing,4,255,1
+2961,B-Wing,4,255,1
+3948,TIE Fighter,4,255,1
+4935,TIE Interceptor,4,255,1
+5922,TIE Bomber,4,255,1
+6909,TIE Advanced,4,255,1
+7896,TIE Defender,4,255,1
+8883,Authority IRD,4,255,1
+9870,Toscan Fighter,4,255,1
+10857,Missile Boat,4,255,1
+11844,T-Wing,4,255,1
+12831,Z-95 Headhunter,4,255,1
+13818,R-41 Starchaser,4,255,1
+14805,Assault Gunboat,4,255,1
+15792,Skipray Blastboat,4,255,1
+16779,TIE Exp. M1 (Bizarro),4,255,1
+17766,TIE Exp. M2 (BigGun),4,255,1
+18753,TIE Exp. M3 (Warheads),4,255,1
+19740,TIE Exp. M4 (Bomb),4,255,1
+20727,TIE Exp. M5 (Booster),4,255,1
+21714,Cloakshape Fighter,4,255,1
+22701,Razor Fighter,4,255,1
+23688,Planetary Fighter,4,255,1
+24675,Supa Fighter,4,255,1
+25662,Pinook Fighter,4,255,1
+26649,*Booster Pack,4,255,1
+27636,Preybird Fighter,4,255,1
+28623,*StarViper,4,255,1
+29610,Firespray (Slave I),4,255,1
+30597,Pursuer (Slave II),4,255,1
+31584,*Reserved Fighter,4,255,1
+32571,*Reserved Fighter,4,255,1
+33558,*Reserved Fighter,4,255,1
+34545,*Reserved Fighter,4,255,1
+35532,*Reserved Fighter,4,255,1
+36519,*Reserved Fighter,4,255,1
+37506,*Reserved Fighter,4,255,1
+38493,*Reserved Fighter,4,255,1
+39480,*Reserved Fighter,4,255,1
+40467,*Reserved Fighter,4,255,1
+41454,Utility Tug,4,255,1
+42441,Combat Utility Vehicle,4,255,1
+43428,Heavy Lifter,4,255,1
+44415,Mole Miner,4,255,1
+45402,Escape Pod,4,255,1
+46389,Escape Pod 2,4,255,1
+47376,*Reserved Utility,4,255,1
+48363,Shuttle,4,255,1
+49350,Escort Shuttle,4,255,1
+50337,Stormtrooper Transport,4,255,1
+51324,Assault Transport,4,255,1
+52311,Escort Transport,4,255,1
+53298,System Patrol Craft,4,255,1
+54285,Scout Craft,4,255,1
+55272,Muurian Transport,4,255,1
+56259,YT-1300 Corellian Transport,4,255,1
+57246,Millennium Falcon (YT-1300),4,255,1
+58233,YT-2400 (Outrider),4,255,1
+59220,Imperial Landing Craft,4,255,1
+60207,Assault Shuttle,4,255,1
+61194,Luxury Yacht LT3000,4,255,1
+62181,Ferryboat Liner,4,255,1
+63168,YT-2000 (Otana),4,255,1
+64155,*Reserved Shuttle,4,255,1
+65142,*Reserved Shuttle,4,255,1
+66129,*Reserved Shuttle,4,255,1
+67116,*Reserved Shuttle,4,255,1
+68103,*Reserved Shuttle,4,255,1
+69090,Container A,4,255,1
+70077,Container B,4,255,1
+71064,Container C,4,255,1
+72051,Container D,4,255,1
+73038,Container E,4,255,1
+74025,Container F,4,255,1
+75012,Container G,4,255,1
+75999,Container H,4,255,1
+76986,Container I,4,255,1
+77973,Cargo Canister,4,255,1
+78960,Pressure Tank,4,255,1
+79947,Container J,4,255,1
+80934,Container K,4,255,1
+81921,Container L,4,255,1
+82908,Container Hangar,4,255,1
+83895,*Reserved Container,4,255,1
+84882,*Reserved Container,4,255,1
+85869,*Reserved Container,4,255,1
+86856,*Reserved Container,4,255,1
+87843,*Reserved Container,4,255,1
+88830,Bulk Freighter,4,255,1
+89817,Cargo Ferry,4,255,1
+90804,Modular Conveyor,4,255,1
+91791,Container Transport,4,255,1
+92778,Medium Transport,4,255,1
+93765,Star Galleon,4,255,1
+94752,Modified Action Transport,4,255,1
+95739,Mobquet Transport,4,255,1
+96726,Xiytiar Transport,4,255,1
+97713,Freighter Type C,4,255,1
+98700,Freighter Type H,4,255,1
+99687,Freighter Type K,4,255,1
+100674,*Freighter Type L,4,255,1
+101661,*Freighter Type P,4,255,1
+102648,Cargo Freighter,4,255,1
+103635,*Cargo Freighter 2,4,255,1
+104622,*Cargo Freighter 3,4,255,1
+105609,*Cargo Freighter 4,4,255,1
+106596,*Cargo Freighter 5,4,255,1
+107583,Cargo Tanker,4,255,1
+108570,*Cargo Tanker 2,4,255,1
+109557,*Cargo Tanker 3,4,255,1
+110544,*Cargo Tanker 4,4,255,1
+111531,*Cargo Tanker 5,4,255,1
+112518,Suprosa,4,255,1
+113505,*Reserved Freighter,4,255,1
+114492,*Reserved Freighter,4,255,1
+115479,*Reserved Freighter,4,255,1
+116466,*Reserved Freighter,4,255,1
+117453,*Reserved Freighter,4,255,1
+118440,*Reserved Freighter,4,255,1
+119427,*Reserved Freighter,4,255,1
+120414,*Reserved Freighter,4,255,1
+121401,*Reserved Freighter,4,255,1
+122388,*Reserved Freighter,4,255,1
+123375,Corellian Corvette,4,255,1
+124362,Modified Corvette,4,255,1
+125349,Nebulon-B Frigate,4,255,1
+126336,Modified Frigate,4,255,1
+127323,Passenger Liner,4,255,1
+128310,Carrack Cruiser,4,255,1
+129297,Strike Cruiser,4,255,1
+130284,Escort Carrier,4,255,1
+131271,Dreadnaught,4,255,1
+132258,MC80a Calamari Cruiser,4,255,1
+133245,MC40a Light Calamari Cruiser,4,255,1
+134232,Interdictor Im-418,4,255,1
+135219,Victory Class Star Destroyer,4,255,1
+136206,Imperial Class Star Destroyer,4,255,1
+137193,Super Star Destroyer,4,255,1
+138180,*Modified Strike Cruiser,4,255,1
+139167,Lancer Frigate,4,255,1
+140154,Bulk Crusier,4,255,1
+141141,Assault Frigate,4,255,1
+142128,Corellian Gunship,4,255,1
+143115,Marauder Corvette,4,255,1
+144102,Imperial Research Ship,4,255,1
+145089,Winged Calamari Cruiser,4,255,1
+146076,Victory Class Star Destroyer II,4,255,1
+147063,Imperial Class Star Destroyer II,4,255,1
+148050,*Reserved Starship,4,255,1
+149037,*Reserved Starship,4,255,1
+150024,XQ1 Platform,4,255,1
+151011,XQ2 Platform,4,255,1
+151998,XQ3 Platform,4,255,1
+152985,XQ4 Platform,4,255,1
+153972,XQ5 Platform,4,255,1
+154959,XQ6 Platform,4,255,1
+155946,Asteroid Hangar,4,255,1
+156933,Deep Space Manufacturing Factory,4,255,1
+157920,Shipyard,4,255,1
+158907,Repair Yard,4,255,1
+159894,Golan One,4,255,1
+160881,Golan Two,4,255,1
+161868,Golan Three,4,255,1
+162855,Derilyn Platform,4,255,1
+163842,Sensor Array,4,255,1
+164829,Comm Relay,4,255,1
+165816,Space Colony 1,4,255,1
+166803,Space Colony 2,4,255,1
+167790,Space Colony 3,4,255,1
+168777,Casino (Dunari's Rest),4,255,1
+169764,Cargo Facility 1,4,255,1
+170751,Cargo Facility 2,4,255,1
+171738,Asteroid Mining Unit,4,255,1
+172725,Processing Plant,4,255,1
+173712,Rebel Platform,4,255,1
+174699,Imperial Research Center,4,255,1
+175686,Family Base,4,255,1
+176673,Family Repair Yard,4,255,1
+177660,Pirate Shipyard,4,255,1
+178647,Industrial Complex,4,255,1
+179634,*Pirate Junkyard Base,4,255,1
+180621,*Reserved Station,4,255,1
+181608,*Reserved Station,4,255,1
+182595,*Reserved Station,4,255,1
+183582,*Reserved Station,4,255,1
+184569,*Reserved Station,4,255,1
+185556,*Reserved Station,4,255,1
+186543,*Reserved Station,4,255,1
+187530,*Reserved Station,4,255,1
+188517,New Laser Battery,4,255,1
+189504,New Ion Battery,4,255,1
+190491,Asteroid Laser Battery,4,255,1
+191478,Asteroid Warhaead Launcher,4,255,1
+192465,Gun Emplacement,4,255,1
+193452,Large Gun Emplacement,4,255,1
+194439,Large Gun /Warhead Emplacement,4,255,1
+195426,*Homing Mine A,4,255,1
+196413,Homing Mine B,4,255,1
+197400,Proximity Mine A,4,255,1
+198387,Proximity Mine B,4,255,1
+199374,Rebel Pilot,4,255,1
+200361,Imperial Pilot,4,255,1
+201348,Civilian Pilot,4,255,1
+202335,Zero G Stormtrooper,4,255,1
+203322,Zero G Worker,4,255,1
+204309,MK-09 Droid,4,255,1
+205296,R2-D2 Droid,4,255,1
+206283,Comm Sat 1,4,255,1
+207270,Comm Sat 2,4,255,1
+208257,Comm Sat 3,4,255,1
+209244,Probe,4,255,1
+210231,Probe Capsule,4,255,1
+211218,Nav Buoy 1,4,255,1
+212205,Nav Buoy 2,4,255,1
+213192,Nav Buoy 3,4,255,1
+214179,Hyper Buoy,4,255,1
+215166,Accelerator Ring,4,255,1
+216153,Laser Accelerator Ring I,4,255,1
+217140,Laser Accelerator Ring II,4,255,1
+218127,Unknown,4,255,1
+219114,Unknown,4,255,1
+220101,Unknown,4,255,1
+221088,Unknown,4,255,1
+222075,Unknown,4,255,1
+223062,Unknown,4,255,1
+224049,Unknown,4,255,1
+225036,Unknown,4,255,1
+226023,Unknown,4,255,1
+227010,Unknown,4,255,1
+227997,Unknown,4,255,1
+228984,Unknown,4,255,1
+229971,Unknown,4,255,1
+230958,Unknown,4,255,1
+231945,Unknown,4,255,1
+232932,Unknown,4,255,1
+233919,Unknown,4,255,1
+234906,Unknown,4,255,1
+235893,Unknown,4,255,1
+236880,Unknown,4,255,1
+237867,Unknown,4,255,1
+238854,Unknown,4,255,1
+239841,Unknown,4,255,1
+240828,Unknown,4,255,1
+241815,Unknown,4,255,1
+242802,Unknown,4,255,1
+243789,Unknown,4,255,1
+244776,Unknown,4,255,1
+245763,Unknown,4,255,1
+246750,Unknown,4,255,1
+247737,Unknown,4,255,1
+248724,Unknown,4,255,1
+249711,Unknown,4,255,1
+250698,Unknown,4,255,1
+251685,Unknown,4,255,1
+252672,Unknown,4,255,1
+253659,Unknown,4,255,1
+254646,Unknown,4,255,1
+255633,Unknown,4,255,1
+256620,Unknown,4,255,1
+257607,Unknown,4,255,1
+258594,Unknown,4,255,1
+259581,Unknown,4,255,1
+260568,Unknown,4,255,1

@@ -1,0 +1,12 @@
+ The total number of 'rack', or weapon hardpoint, is stored in the 
+craft's OPT file and can't be altered here in the EXE. 
+
+  For example, TIE Defender has 8 racks: 4 lasers, 2 Ion, 2 Warhead, 
+so you can input 0-7 in the rack slots, but never 8 or more.
+
+  Also, there may be some unexpected result if the rack info in EXE
+differs from the info in OPT. For example, the last two hardpoint in
+TIE Defender OPT are Warhead hardpoint, but you assign rack 0 & 1 in 
+EXE as Warhead rack. I didn't try it, so I don't know the consequence
+of that yet. If you have any experiment and result on this, be sure
+to let me know.

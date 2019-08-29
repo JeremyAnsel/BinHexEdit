@@ -1,0 +1,4 @@
+Enter an number for the capital ship's fire ratio. Higher numbers will mean more lasers fire, but less often. Lower numbers will mean less lasers fire, but more often. Don't set it too low, or the capship will have to wait before firing a long burst again.
+
+Researched and tested by:
+Drakken (and dreddnott)

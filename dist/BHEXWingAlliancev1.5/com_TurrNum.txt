@@ -1,0 +1,4 @@
+I believe this could be the number of guns to actually let you fire in each turret (for both turrets).
+
+--
+dreddnott

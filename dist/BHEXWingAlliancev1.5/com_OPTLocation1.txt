@@ -1,0 +1,8 @@
+This slot indicates which file in \FLIGHTMODELS 
+directory is the file to obtain OPT description.
+More info can be found in OPTLocation2 comment.
+
+Input:
+
+0 for SPACECRAFT0.LST
+1 for EQUIPMENT0.LST

@@ -1,0 +1,276 @@
+Determines which slot a craft will use.  Allows for "doubling-up" of slots.  You can have two ships different point to one slot.  They will both have the same stats, but you can have them be different ship types and opts.
+
+This is why the Modified Strike Cruiser, in the retail version, has the attributes of the Golan Two.
+
+----------------------------
+Modified Strike Cruiser Fix:
+Change the 163 to 140.
+----------------------------
+
+Slot ID:
+  0     X-Wing
+  1     Y-Wing
+  2     A-Wing
+  3     B-Wing
+  4     TIE Fighter
+  5     TIE Interceptor
+  6     TIE Bomber
+  7     TIE Advanced
+  8     TIE Defender
+  9     Authority IRD
+ 10     Toscan Fighter
+ 11     Missile Boat (SLAM Slot?)
+ 12     T-Wing
+ 13     Z-95 Headhunter
+ 14     R-41 Starchaser
+ 15     Assault Gunboat
+ 16     Skipray Blastboat
+ 17     TIE Exp. M1 (Bizarro)
+ 18     TIE Exp. M2 (BigGun)
+ 19     TIE Exp. M3 (Warheads)
+ 20     TIE Exp. M4 (Bomb)
+ 21     TIE Exp. M5 (Booster)
+ 22     Cloakshape Fighter
+ 23     Razor Fighter
+ 24     Planetary Fighter
+ 25     Supa Fighter
+ 26     Pinook Fighter
+ 27     *Booster Pack
+ 28     Preybird Fighter
+ 29     *StarViper
+ 30     Firespray (Slave I)
+ 31     Pursuer (Slave II)
+ 32     *Reserved Fighter
+ 33     *Reserved Fighter
+ 34     *Reserved Fighter
+ 35     *Reserved Fighter
+ 36     *Reserved Fighter
+ 37     *Reserved Fighter
+ 38     *Reserved Fighter
+ 39     *Reserved Fighter
+ 40     *Reserved Fighter
+ 41     *Reserved Fighter
+ 42     Utility Tug
+ 43     Combat Utility Vehicle
+ 44     Heavy Lifter
+ 45     Mole Miner
+ 46     Escape Pod
+ 47     Escape Pod 2
+ 48     *Reserved Utility
+ 49     Shuttle
+ 50     Escort Shuttle
+ 51     Stormtrooper Transport
+ 52     Assault Transport
+ 53     Escort Transport
+ 54     System Patrol Craft
+ 55     Scout Craft
+ 56     Muurian Transport
+ 57     YT-1300 Corellian Transport
+ 58     Millennium Falcon (YT-1300)
+ 59     YT-2400 (Outrider)
+ 60     Imperial Landing Craft
+ 61     Assault Shuttle
+ 62     Luxury Yacht LT3000
+ 63     Ferryboat Liner
+ 64     YT-2000 (Otana)
+ 65     *Reserved Shuttle
+ 66     *Reserved Shuttle
+ 67     *Reserved Shuttle
+ 68     *Reserved Shuttle
+ 69     *Reserved Shuttle
+ 70     Container A
+ 71     Container B
+ 72     Container C
+ 73     Container D
+ 74     Container E
+ 75     Container F
+ 76     Container G
+ 77     Container H
+ 78     Container I
+ 79     Cargo Canister
+ 80     Pressure Tank
+ 81     Container J
+ 82     Container K
+ 83     Container L
+ 84     Container Hangar
+ 85     *Reserved Container
+ 86     *Reserved Container
+ 87     *Reserved Container
+ 88     *Reserved Container
+ 89     *Reserved Container
+ 90     Bulk Freighter
+ 91     Cargo Ferry
+ 92     Modular Conveyor
+ 93     Container Transport
+ 94     Medium Transport
+ 95     Star Galleon
+ 96     Modified Action Transport
+ 97     Mobquet Transport
+ 98     Xiytiar Transport
+ 99     Freighter Type C
+100     Freighter Type H
+101     Freighter Type K
+102     *Freighter Type L
+103     *Freighter Type P
+104     Cargo Freighter
+105     *Cargo Freighter 2
+106     *Cargo Freighter 3
+107     *Cargo Freighter 4
+108     *Cargo Freighter 5
+109     Cargo Tanker
+110     *Cargo Tanker 2
+111     *Cargo Tanker 3
+112     *Cargo Tanker 4
+113     *Cargo Tanker 5
+114    Suprosa
+115     *Reserved Freighter
+116     *Reserved Freighter
+117     *Reserved Freighter
+118     *Reserved Freighter
+119     *Reserved Freighter
+120     *Reserved Freighter
+121     *Reserved Freighter
+122     *Reserved Freighter
+123     *Reserved Freighter
+124     *Reserved Freighter
+125     Corellian Corvette
+126     Modified Corvette
+127     Nebulon-B Frigate
+128     Modified Frigate
+129     Passenger Liner
+130     Carrack Cruiser
+131     Strike Cruiser
+132     Escort Carrier
+133     Dreadnaught
+134     MC80a Calamari Cruiser
+135     MC40a Light Calamari Cruiser
+136     Interdictor Im-418
+137     Victory Class Star Destroyer
+138     Imperial Class Star Destroyer
+139     Super Star Destroyer
+140     *Modified Strike Cruiser
+141     Lancer Frigate
+142     Bulk Crusier
+143     Assault Frigate
+144     Corellian Gunship
+145     Marauder Corvette
+146     Imperial Research Ship
+147     Winged Calamari Cruiser
+148     Victory Class Star Destroyer II
+149     Imperial Class Star Destroyer II
+150     *Reserved Starship
+151     *Reserved Starship
+152     XQ1 Platform
+153     XQ2 Platform
+154     XQ3 Platform
+155     XQ4 Platform
+156     XQ5 Platform
+157     XQ6 Platform
+158     Asteroid Hangar
+159     Deep Space Manufacturing Factory
+160     Shipyard
+161     Repair Yard
+162     Golan One
+163     Golan Two
+164     Golan Three
+165     Derilyn Platform
+166     Sensor Array
+167     Comm Relay
+168     Space Colony 1
+169     Space Colony 2
+170     Space Colony 3
+171     Casino (Dunari's Rest)
+172     Cargo Facility 1
+173     Cargo Facility 2
+174     Asteroid Mining Unit
+175     Processing Plant
+176     Rebel Platform
+177     Imperial Research Center
+178     Family Base
+179     Family Repair Yard
+180     Pirate Shipyard
+181     Industrial Complex
+182     *Pirate Junkyard Base
+183     *Reserved Station
+184     *Reserved Station
+185     *Reserved Station
+186     *Reserved Station
+187     *Reserved Station
+188     *Reserved Station
+189     *Reserved Station
+190     *Reserved Station
+191     New Laser Battery
+192     New Ion Battery
+193     Asteroid Laser Battery
+194     Asteroid Warhaead Launcher
+195     Gun Emplacement
+196     Large Gun Emplacement
+197     Large Gun /Warhead Emplacement
+198     *Homing Mine A
+199     Homing Mine B
+200     Proximity Mine A
+201     Proximity Mine B
+202     Rebel Pilot
+203     Imperial Pilot
+204     Civilian Pilot
+205     Zero G Stormtrooper
+206     Zero G Worker
+207     MK-09 Droid
+208     R2-D2 Droid
+209     Comm Sat 1
+210     Comm Sat 2
+211     Comm Sat 3
+212     Probe
+213     Probe Capsule
+214     Nav Buoy 1
+215     Nav Buoy 2
+216     Nav Buoy 3
+217     Hyper Buoy
+218     Accelerator Ring
+219     Laser Accelerator Ring I
+220     Laser Accelerator Ring II
+221     Unknown
+222     Unknown
+223     Unknown
+224     Unknown
+225     Unknown
+226     Unknown
+227     Unknown
+228     Unknown
+229     Unknown
+230     Unknown
+231     Unknown
+232     Unknown
+233     Unknown
+234     Unknown
+235     Unknown
+236     Unknown
+237     Unknown
+238     Unknown
+239     Unknown
+240     Unknown
+241     Unknown
+242     Unknown
+243     Unknown
+244     Unknown
+245     Unknown
+246     Unknown
+247     Unknown
+248     Unknown
+249     Unknown
+250     Unknown
+251     Unknown
+252     Unknown
+253     Unknown
+254     Unknown
+255     Unknown
+256     Unknown
+257     Unknown
+258     Unknown
+259     Unknown
+260     Unknown
+261     Unknown
+262     Unknown
+263     Unknown
+264     Unknown
+

@@ -1,0 +1,70 @@
+XWA Weapon Codes by dreddnott
+==================================
+Leave blank for the default weapon type stored in OPT file (Zoë).  See other comments in the end of this list.
+
+1	Slow, Invisible, Instant Death
+	(small explosion)
+2	Fast, Invisible, Instant Death
+	(small explosion)
+3	Superfast, Invisible, Instant Death
+	(small explosion)
+4	Superfast, Invisible, Instant Death
+5	Same as above
+6 - 269	?????
+270	Fast, Invisible, Instant Death
+271	Fast, Invisible, Instant Death
+272	Fast, Invisible, Instant Death
+273	Slow, Invisible, Instant Death
+274	Fast, Invisible, Instant Death
+275	Slow, Invisible, Instant Death
+276	Superfast, Invisible, Instant Death
+277	Slow, Invisible, Instant Death
+278	Slow, Invisible, No Damage, Yellow Greenact
+279	Slow, Invisible, No Damage, Yellow Greenact
+
+------------------------
+
+Everything from 280 to 307 corrisponds with the weapon stats, so if you want to get rid of one of those extra lasers, and put a new one in, you can. =) -Hell Raiser
+
+280	Red Laser
+281	Red Turbo Laser
+282	Green Laser
+283	Green Turbo Laser
+284	Ion Turbo Laser
+285	Ion Turbo Laser
+286	Torpedo Launcher
+287	Missile Launcher
+288	Red Super Laser
+289	Green Super Laser
+290	Ion Super Laser
+291	Adv. Torpedo
+292	Adv. Concussion Missile
+293	Space Bomb
+294	Heavy Rocket
+295	Mag. Pulse
+296	Ion Pulse
+297	Red Turbo Short
+298	Flare
+299	Invisible Powerful Flare (Chaff?)
+300	Slow, Invisible, No Damage, Yellow
+	Greenact (Cluser?)
+301	Red Turbo Med
+302	Red Turbo Long
+303	Green Turbo Short
+304	Green Turbo Med
+305	Green Turbo Long
+306	Death Star II Superlaser
+307	(Open Weapon) Insert new stats here =)
+
+------------------------
+
+308	Instant Self-destruct: do not use for self!
+309	Less Powerful Self-destruct
+310 & higher are Self-Destructs
+
+
+"Turbo" lasers - like regular lasers but always strong no matter what the charge level is and the red and green ones make explosion sounds when fired on shields.
+
+"Super" lasers - powerful exploding lasers capital ships fire.
+
+Death Star II superlaser only moves if you're moving too. It looks very weird, not at all like it should.

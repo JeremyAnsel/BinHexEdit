@@ -1,0 +1,3 @@
+The bigger the value, the longer it lasts.  Entries seem to be in seconds.
+
+Hell Raiser

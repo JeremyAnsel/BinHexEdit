@@ -1,0 +1,112 @@
+111,XWA,,,
+0,Score,2,,1
+2,Promo Points,2,,1
+4,Hyperdrive,1,,2
+5,Gun Convergence Mode,1,,3
+6,Shield Generator,1,,2
+7,Shield Power (SBD),3,,8
+13,Hull Rate (RU),3,,9
+17,Unknown Strength,3,,1
+21,System Hits,1,,1
+11,Sensitivity to Enemy Fire,1,,1
+12,Unknown,1,,1
+24,Speed,2,,6
+26,Acceleration Rate,1,,6
+28,Deceleration Rate,1,,6
+31,AI Maneuverability,1,,1
+35,Roll,1,,7
+37,Pitch,1,,7
+38,Unknown,9,,1
+40,Point Value,9,,1
+42,Cockpit File,4,255,1
+564,Cockpit X POV,2,,22
+560,Cockpit Y POV,2,,22
+562,Cockpit Z POV,2,,22
+555,Countermeasures,1,,33
+298,1st Laser Type,2,,12
+300,2nd Laser Type,2,,12
+302,3rd Laser Type,2,,12
+304,1st Laser Start Rack,1,,13
+307,1st Laser End Rack,1,,13
+310,1st Laser Link Code,1,,14
+313,1st Laser Sequence,1,,15
+305,2nd Laser Start Rack,1,,13
+308,2nd Laser End Rack,1,,13
+311,2nd Laser Link Code,1,,14
+314,2nd Laser Sequence,1,,15
+306,3rd Laser Start Rack,1,,13
+309,3rd Laser End Rack,1,,13
+312,3rd Laser Link Code,1,,14
+315,3rd Laser Sequence,1,,15
+318,1st Laser Range,1,,29
+322,2nd Laser Range,1,,29
+324,3rd Laser Range,1,,29
+328,1st Laser Fire Ratio,2,,32
+330,2nd Laser Fire Ratio,2,,32
+332,3rd Laser Fire Ratio,2,,32
+334,1st Warhead Type,2,,12
+338,1st Warhead Start Rack,1,,13
+340,1st Warhead End Rack,1,,13
+342,1st Warhead Link Code,1,,14
+344,1st Warhead Capacity,1,,16
+336,2nd Warhead Type,2,,12
+339,2nd Warhead Start Rack,1,,13
+341,2nd Warhead End Rack,1,,13
+343,2nd Warhead Link Code,1,,14
+345,2nd Warhead Capacity,1,,16
+346,Rack 0 X,2,,39
+350,Rack 0 Y,2,,39
+348,Rack 0 Z,2,,39
+352,Rack 0 Cap,1,,40
+354,Rack 1 X,2,,39
+358,Rack 1 Y,2,,39
+356,Rack 1 Z,2,,39
+360,Rack 1 Cap,1,,40
+362,Rack 2 X,2,,39
+366,Rack 2 Y,2,,39
+364,Rack 2 Z,2,,39
+368,Rack 2 Cap,1,,40
+370,Rack 3 X,2,,39
+374,Rack 3 Y,2,,39
+372,Rack 3 Z,2,,39
+376,Rack 3 Cap,1,,40
+378,Rack 4 X,2,,39
+382,Rack 4 Y,2,,39
+380,Rack 4 Z,2,,39
+384,Rack 4 Cap,1,,40
+386,Rack 5 X,2,,39
+390,Rack 5 Y,2,,39
+388,Rack 5 Z,2,,39
+392,Rack 5 Cap,1,,40
+394,Rack 6 X,2,,39
+398,Rack 6 Y,2,,39
+396,Rack 6 Z,2,,39
+400,Rack 6 Cap,1,,40
+402,Rack 7 X,2,,39
+406,Rack 7 Y,2,,39
+404,Rack 7 Z,2,,39
+408,Rack 7 Cap,1,,40
+410,Rack 8 X,2,,39
+414,Rack 8 Y,2,,39
+412,Rack 8 Z,2,,39
+416,Rack 8 Cap,1,,40
+418,Rack 9 X,2,,39
+422,Rack 9 Y,2,,39
+420,Rack 9 Z,2,,39
+424,Rack 9 Cap,1,,40
+586,Turret 1 Enable,2,,43
+566,Turret 1 X POV,2,,41
+574,Turret 1 Y POV,2,,41
+570,Turret 1 Z POV,2,,41
+578,Turret 1 Orient 1,2,,42
+582,Turret 1 Orient 2,2,,42
+590,Turret 1 Arc 1,2,,44
+594,Turret 1 Arc 2,2,,44
+588,Turret 2 Enable,2,,43
+568,Turret 2 X POV,2,,41
+576,Turret 2 Y POV,2,,41
+572,Turret 2 Z POV,2,,41
+580,Turret 2 Orient 1,2,,42
+584,Turret 2 Orient 2,2,,42
+592,Turret 2 Arc 1,2,,44
+596,Turret 2 Arc 2,2,,44
