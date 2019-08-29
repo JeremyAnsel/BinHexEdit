@@ -1,0 +1,23 @@
+This is a simple generic project template should get you started...
+This is the info in "Project.txt"
+
+* Author:  Author's Name
+* Revision:  1.0.0
+* Date:  Month Day, Year, Time
+
+Description:
+-----------------------------------------------------------------------
+[New Project] is a module for ...
+
+Project Specifics:
+-----------------------------------------------------------------------
+Enter information that is particular to the project you are working on.
+
+Credits:
+-----------------------------------------------------------------------
+* [New Project] Module:
+  Author name
+  mailto:author@email.com
+  http://www.author.com/
+
+* etc...

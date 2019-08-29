@@ -1,0 +1,20 @@
+[Project]
+1
+BinHexEdit Generic Template
+
+[Icon]
+1
+Default
+
+[File]
+1
+C:\Program Files\BinHexEdit\Generic\Generic.bin
+
+[Patterns]
+1
+One Pattern
+
+[Comments]
+2
+Default
+One Comment

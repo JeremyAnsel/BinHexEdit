@@ -1,0 +1,461 @@
+{\rtf1\ansi\deff1
+{\fonttbl{\f0\froman Times New Roman;}{\f1\fswiss Arial;}{\f2\froman Symbol;}}
+{\colortbl;\red0\green128\blue0;\red255\green0\blue0;\red0\green0\blue255;\red0\green0\blue0;\red128\green0\blue0;}
+{\stylesheet{\fs24 \snext0 Normal;}
+}\pard\plain
+{\up +}{\footnote\pard\plain{\up +} BROWSE0001:0001}
+{\up $}{\footnote\pard\plain{\up $} Introduction}
+{\up #}{\footnote\pard\plain{\up #} idh_Introduction}
+\pard\keepn \b\fs24\cf1 Introduction
+\par \pard \plain\fs20 
+\par Welcome to BinHexEdit 98 (BHE98).  This is a binary file based, configurable editor that I am writing using \i Microsoft Visual Basic 5.0 (VB5), Learning Edition\plain\fs20 .  BinHexEdit will enable programmers, gamers, and slicers to create editable modules for binary files with ease.  This Alpha currently does not include a Project Generator, per say, but after reading this and taking a look at the contents of the project files, you could design a project from scratch, and using nothing more than text files.
+\par \pard 
+\par Why use it? Well it is FREE, and it will be versatile.  Many application and game based editors out there get outdated as soon as a new release of a program comes out.  Generally the file offsets change, making it impossible to perform editing correctly.  BinHexEdit will be editable via scripts.  Many are familiar with the original editor, the well known \i Universal Game Editor (UGE), for DOS, by Jack Hartman\plain\fs20 . This is my attempt at a \i 32-bit Windows95/98 application\plain\fs20  that gives users some kind of flexibility, like UGE did for DOS.  So what? Well I want to do it.  BinHexEdit works from plain text files and comma delimited text files that can be generated from just about any spreadsheets program out there.
+\par \pard 
+\par I hope you like it.  Writing it has been a challenge because this feels like writing a programming language interpreter.  I tried to take in consideration ease of use, disk and memory use, and speed.
+\par 
+\par As far as it being easy, this is directed to people that have some basic understanding of Windows (copying files, working with spreadsheets, text files, basic understanding of binary and hexadecimal numbers).  Some knowledge of how data is read from files, as well as exposure to Binary Editors is definitely a plus.   I tried to build a graphical user interface (GUI) that is as inclusive as possible without cluttering matters.
+\par \pard 
+\par Disk space is always a concern.  The application itself is fairly small, but VB5, like it\plain\f0\fs20 \'92\f1 s BASIC predecessor is an interpreted language, with some high-level compilation capability.  It needs supporting files to enable programs to run.  That is why the installation file is so large.  Although Microsoft claims VB5 claims the capability of compiling the code as in lower level programming languages such as \plain\f0\fs20 \'93\f1 C\plain\f0\fs20 \'94\f1  and \plain\f0\fs20 \'93\f1 Pascal\plain\f0\fs20 \'94\f1 , this nice feature is only available in the professional versions of VB5, and I don\plain\f0\fs20 \'92\f1 t have the cash for that.  There is still a catch, although you can have better compilation, you still need the main run time DLL.
+\par \pard 
+\par As far as memory use, the smallest system I tested this on had 24MB RAM, on Windows 95 and it did not use more than 4% of systems resources with a project loaded.  When you reset BinHexEdit all Dynamic Sized Arrays are cleared.  I tried to use as much info out of the script files in order to keep system resources up.  This is definitely a trade-off on speed.  (VB5 runs slower on processing intensive applications.)
+\par 
+\par This leads into speed.  If you are running on PC\plain\f0\fs20 \'92\f1 s slower than a Pentium 166MHz, then it may take a few seconds for sections of the binary file to load up.  The time hogs are the fact that the projects use the script files to read and write info from binaries, and filling up those spreadsheet grids also take time.  I think you will be able to ignore this considering the flexibility that the scripts will give you.
+\par \pard 
+\par If the speed is really a concern, then License and Price comes to mind.  \cf2 This is absolutely and utterly freeware, FREE\plain\fs20 .  If you feel this program could be improved, and you are an experienced VB5 programmer, give me some pointers!  If you do not program, let me tell you this is not easy, I am not much of a programmer myself, and I use the little personal time I have available between my profession, and my family\'85  in other words I do this for fun.  I do not write code for a living, but I like to keep learning new things in life.
+\par \pard 
+\par If you want to send me money as a thank you for writing free code, please contact me via e-mail.  That kind of support will certainly keep me going.  I may even take some personal requests depending on the monetary rewards, ha, ha, ha.
+\par 
+\par Enjoy this.
+\par Demon
+\par \page
+{\up +}{\footnote\pard\plain{\up +} BROWSE0001:0002}
+{\up $}{\footnote\pard\plain{\up $} Load a Project (OPTPhyzBoP and Generic)}
+{\up #}{\footnote\pard\plain{\up #} QJS0UP}
+\pard\keepn \b\fs24\cf1 Load a Project (OPTPhyzBoP and Generic)
+\par \pard \plain\fs20 
+\par BinHexedit is currently released with two projects, one is a generic project and the other one is the X-wing vs. TIE-Fighter 2.0 (Balance of Power) module, called OPTPhyzBoP.  To load those projects, decompress the \plain\f0\fs20 \'93\f1 Projects.zip\plain\f0\fs20 \'94\f1  file that is located in the BinHexedit running directory, and using directory recurse.
+\par 
+\par Your Project files should now be in two separate directories (OPTPhyzBoP and Generic) under the BinHexEdit directory.
+\par 
+\par To open one of the projects, select \b File | Open Project\plain\fs20 , navigate through the directories and open the \plain\f0\fs20 \'93\f1 .bhe\plain\f0\fs20 \'94\f1  file from either of the two projects.  The Generic Project contains a simple binary file to demonstrate BinHexEdit.  The Generic Project files certainly could be used as a template for your very own projects.  \cf2 WARNING: The OPTPhyzBoP Module does not work with older versions of XvT.\plain\fs20 
+\par \page
+{\up +}{\footnote\pard\plain{\up +} BROWSE0001:0003}
+{\up $}{\footnote\pard\plain{\up $} Under Development}
+{\up #}{\footnote\pard\plain{\up #} _D0TFM}
+\pard\keepn \b\fs24\cf1 Under Development
+\par \pard \plain\fs20 
+\par This Help topic is not yet available for BinHexEdit.
+\par \page
+{\up +}{\footnote\pard\plain{\up +} BROWSE0001:0004}
+{\up $}{\footnote\pard\plain{\up $} File List}
+{\up #}{\footnote\pard\plain{\up #} idh_FileList}
+\pard\keepn \b\fs24\cf1 File List
+\par \pard \plain\fs20 
+\par Let\plain\f0\fs20 \'92\f1 s say your favorite PC Game is called MyFlightSim, and you will write an editing module for it.  Your project will be called \plain\f0\fs20 \'93\f1 MyFlightSim\plain\f0\fs20 \'94\f1 , the following are the directories and files you would see.  The actual program, or executable, which is a binary file, is called \plain\f0\fs20 \'93\f1 MyFlightSim.exe\plain\f0\fs20 \'94\f1   (Keep in mind you can create modules for any binary file, not just executables.)
+\par 
+\par \pard\li355\fi-355\tx355 \f2\b\fs18\cf1 \'b7\tab \f1\fs20 [Path]\'5cBinHexEdit\'5cMyFlightSim\'5c
+\par \pard\li355\tx355 \plain\fs20\cf2 (Required)
+\par \pard\li355\tx355 \plain\b\fs20 Project Directory:\plain\fs20  This is the directory, or folder, where your project files should reside.  If you installed BinHexEdit in the default install directory in Windows 95/98, [Path] should be c:\'5cProgram Files\'5c
+\par \pard\li355\tx355 \b Number of Directories:\plain\fs20  one per project
+\par \pard\tx355 
+\par \pard\li355\fi-355\tx355 \f2\b\fs18\cf1 \'b7\tab \f1\fs20 MyFlightSim.bhe
+\par \pard\li355\tx355 \plain\fs20\cf2 (Required)
+\par \pard\li355\tx355 \plain\b\fs20 Project Name File:\plain\fs20  This is an empty, plain text file that exists solely as identification for the project.
+\par \pard\li355\tx355 \b Number of Files:\plain\fs20  one per project
+\par \pard\tx355 
+\par \pard\li355\fi-355\tx355 \f2\b\fs18\cf1 \'b7\tab \f1\fs20 Project.txt
+\par \pard\li355\tx355 \plain\fs20\cf2 (Required)
+\par \pard\li355\tx355 \plain\b\fs20 Project Description File:\plain\fs20  This is a plain text file that contains an introduction and basic information about the project that you design.   This information is displayed in the Online Help Screen when you load a project.
+\par \pard\li355\tx355 \b Number of Files:\plain\fs20  one per project
+\par \pard\tx355 
+\par \pard\li355\fi-355\tx355 \f2\b\fs18\cf1 \'b7\tab \f1\fs20 Summary.txt
+\par \pard\li355\tx355 \plain\fs20\cf2 (Required)
+\par \pard\li355\tx355 \plain\b\fs20 Project Configuration File:\plain\fs20  This is the \plain\f0\fs20 \'93\f1 meat\plain\f0\fs20 \'94\f1  of your Project.  It contains initialization variables and custom values that you assign to your project.
+\par \pard\li355\tx355 \b Number of Files:\plain\fs20  one per project
+\par \pard\tx355 
+\par \pard\li355\fi-355\tx355 \f2\b\fs18\cf1 \'b7\tab \f1\fs20 Sections.csv
+\par \pard\li355\tx355 \plain\fs20\cf2 (Required)
+\par \pard\li355\tx355 \plain\b\fs20 Section Definition File:\plain\fs20  This comma-delimited file defines what areas of a binary file you which for your project to be able to access.
+\par \pard\li355\tx355 \b Number of Files:\plain\fs20  one per project
+\par \pard\tx355 
+\par \pard\li355\fi-355\tx355 \f2\b\fs18\cf1 \'b7\tab \f1\fs20 pat_[Pattern Name].csv
+\par \pard\li355\tx355 \plain\fs20\cf2 (Required)
+\par \pard\li355\tx355 \plain\b\fs20 Pattern Files:\plain\fs20  This comma-delimited file defines how an area of a project\plain\f0\fs20 \'92\f1 s binary file is defined for reading and writing purposes.  [Pattern Name] is a name that you define in \plain\f0\fs20 \'93\f1 Summary.txt\plain\f0\fs20 \'94\f1 
+\par \pard\li355\tx355 \b Number of Files:\plain\fs20  Depends on how many patterns are defined in \plain\f0\fs20 \'93\f1 Summary.txt\plain\f0\fs20 \'94\f1 
+\par \pard\tx355 
+\par \pard\li355\fi-355\tx355 \f2\b\fs18\cf1 \'b7\tab \f1\fs20 [Icon File].ico
+\par \pard\li355\tx355 \plain\fs20\cf1 (Optional)
+\par \pard\li355\tx355 \plain\b\fs20 Project Icon File:\plain\fs20  A Windows compatible icon file.  This is an option to add spice to your project.  There are several applications that let you create icons for Windows.  If you have one, or if you have royalty-free icons you can use, you have the option assigning it to your project.  This file must be an \plain\f0\fs20 \'93\f1 .ico\plain\f0\fs20 \'94\f1   file.  BinHexEdit does not read other graphical formats or extracts icon information from executables or DLLs.
+\par \pard\li355\tx355 \b Number of Files: \plain\fs20 either none or one per project
+\par \pard\tx355 
+\par \pard\li355\fi-355\tx355 \f2\b\fs18\cf1 \'b7\tab \f1\fs20 int_[Section Name].txt
+\par \pard\li355\tx355 \plain\fs20\cf1 (Optional)
+\par \pard\li355\tx355 \plain\b\fs20 0\tab Section Introduction Files:\plain\fs20  You could add a personal touch to your project by creating a text file with a brief description of each section.  This information would be displayed in the On-line Help Screen when you load a Section.
+\par \b 1\tab Number of Files:\plain\fs20  Varies from none to as many as the total number of Sections you have defined in \plain\f0\fs20 \'93\f1 Sections.csv\plain\f0\fs20 \'94\f1 
+\par \pard\tx355 
+\par \pard\li355\fi-355\tx355 \f2\b\fs18\cf1 \'b7\tab \f1\fs20 com_[Comment Name].txt
+\par \pard\li355\tx355 \plain\fs20\cf1 (Optional)
+\par \pard\li355\tx355 \plain\b\fs20 Data Specific Comment:\plain\fs20  You could add a personal touch to your project by creating a text file with a brief description of what values mean what in the binary.  If you do not add any comments than the default comments for the particular type of data will be displayed.  For Example, if a data type defined in the Pattern file receives Bytes, then the Online Screen Help will say that the valid range is 0-255.  If the binary in the (let\plain\f0\fs20 \'92\f1 s assume) game you are editing only understands certain values, such as 10, 20 and 30, you need to tell your users that.  BinHexEdit does not require you to do that because it is just reading, writing to a file, so if the user entered 40, it would accept the value because it is within the range of 0-255.
+\par \pard\li355\tx355 \b Number of Files:\plain\fs20  Varies from none to as many as the total number of Sections you have defined in \plain\f0\fs20 \'93\f1 Sections.csv\plain\f0\fs20 \'94\f1 
+\par \pard\tx355 
+\par \pard\li355\fi-355\tx355 \f2\b\fs18\cf1 \'b7\tab \f1\fs20 MyFlightSim.bbk
+\par \pard\li355\tx355 \plain\fs20\cf1 (Will be created upon first use of the Project)
+\par \pard\li355\tx355 \plain\b\fs20 0\tab Project Binary File Backup: \plain\fs20 The first time you load a Project in BinHexEdit, it will create a backup of the binary file that is associated with the Project.  The nature of BinHexEdit is to edit binary files.  Things can go wrong when you edit binary files.  If that happens, you can easily restore the original binary file through BinHexEdit.  BinHexEdit will not erase this file, so if things ever get messed up, just restore your original.  This only work if when you load the project the first time it contains an unchanged binary\'85  Otherwise you run the risk of restoring whatever changes were done previous to using BinHexEdit.
+\par \pard\li355\tx355 \b 1\tab Number of Files: \plain\fs20 one per project
+\par \pard\tx355 
+\par \pard\li355\fi-355\tx355 \f2\b\fs18\cf1 \'b7\tab \f1\fs20 [Some File].[Some Extension]_bak
+\par \pard\li355\tx355 \plain\fs20\cf1 (Situation Dependent)
+\par \pard\li355\tx355 \plain\b\fs20 0\tab Miscellaneous Backup Files:\plain\fs20  Eventually you will be able to create and edit Projects from within BinHexEdit, and when your files are changed, a copy of whichever file was modified will be generated with the same name as the original, plus \plain\f0\fs20 \'93\f1 _bak\plain\f0\fs20 \'94\f1  added to the end of it.  Currently only \plain\f0\fs20 \'93\f1 Summary.txt\plain\f0\fs20 \'94\f1  is supported, in case the binary file has changed location.
+\par \b 1\tab Number of Files: \plain\fs20 Varies
+\par \pard\tx355 
+\par \pard\li355\fi-355\tx355 \f2\b\fs18\cf1 \'b7\tab \f1\fs20 bhep_[Some Section](Default, Section Name, or Offset-Free).csv  (or user chosen)
+\par \pard\li355\tx355 \plain\fs20\cf1 (Situation Dependent)
+\par \pard\li355\tx355 \plain\b\fs20 BHE Section Patch File\plain\fs20 : You can create patch files that save information about a section in the binary.   Later you or someone else may write to the binary based on the information in the patch file.  The file is text based and can be manually edited, if so desired.  Think of BinHexEdit as an interface you can write patches from, since you can generate patches from information you write in the edit screen before you make any changes to the actual binary.
+\par \pard\li355\tx355 \b Number of Files: \plain\fs20 As many as you want to generate
+\par \pard\li355\tx355 
+\par \page
+{\up +}{\footnote\pard\plain{\up +} BROWSE0001:0005}
+{\up $}{\footnote\pard\plain{\up $} Files' Contents}
+{\up #}{\footnote\pard\plain{\up #} 4AN2.AK}
+\pard\keepn \b\fs24\cf1 Files\plain\f0\b\fs24\cf1 \'92\f1  Contents
+\par \pard \plain\fs20 
+\par Read the \uldb File List\plain\fs20 {\v idh_FileList} section first.  This section also assumes that you have a project named \plain\f0\fs20 \'93\f1 MyFlightSim\plain\f0\fs20 \'94\f1 , for example purposes.  
+\par 
+\par 
+\par \pard\li355\fi-355\tx355 \f2\b\fs18\cf1 \'b7\tab \f1\fs20 MyFlightSim.bhe
+\par \pard\tx355 \plain\fs20 The project name file contains nothing in it.  It is an empty text file that can be easily created by Right-clicking in the Windows Explorer right window, and selecting \b New | Text Document\plain\fs20 , then change the name of the file to your project name plus the \plain\f0\fs20 \'93\f1 bhe\plain\f0\fs20 \'94\f1  extension.
+\par \pard\tx355 
+\par \pard\tx355 
+\par \pard\li355\fi-355\tx355 \f2\b\fs18\cf1 \'b7\tab \f1\fs20 Project.txt
+\par \pard\tx355 \plain\fs20 This is a text file, an actual introduction of the project, write any information in it that you think is useful to the user.  You are recommended to include the following in the header:
+\par \pard\li715\tx355 \cf3 Author:  Name of author(s)
+\par \pard\li715\tx355 Revision:  major.minor.revision
+\par \pard\li715\tx355 Date:  Month Day, Year, Time
+\par \pard\tx355 \plain\fs20 
+\par \pard\tx355 
+\par \pard\li355\fi-355\tx355 \f2\b\fs18\cf1 \'b7\tab \f1\fs20 Summary.txt
+\par \pard\tx355 \plain\fs20 This text file contains variables that define the parameters of your project.  The following is the format for the variables, and it MUST ALWAYS be followed that way, otherwise problems may occur.  Note that in the file you will not see VAR, NL or LD, they are used here just to indicate the values.
+\par \pard\tx355 
+\par \pard\li1435\fi-715\tx355 [Variable]  -VAR
+\par \pard\li1435\fi-715\tx355 Number of Lines  -NL to read that have data
+\par \pard\li1435\fi-715\tx355 Lines of Data  -(The number of lines MUST be equal to the Number of Lines to read defined above.), LD(1 to NL)
+\par \pard\tx355 
+\par \pard\tx355 All of those parameters MUST be one after the other, without any blank lines between them.
+\par \pard\tx355 
+\par \pard\tx355 Comments may be included in \plain\f0\fs20 \'93\f1 Summary.txt\plain\f0\fs20 \'94\f1  as long as they are placed in dedicated lines (i.e.: lines that have data or variable information cannot have comments), and are not placed in between any of the essential lines defined above.  Comment lines start with \plain\f0\fs20 \'93\f1 //\plain\f0\fs20 \'94\f1 
+\par \pard\tx355 
+\par \pard\li715\tx355 \cf1 // This is an example of a comment line.
+\par \pard\tx355 \plain\fs20 
+\par \pard\tx355 The following are the variables that are REQUIRED by BinHexEdit and their values.
+\par \pard\tx355 
+\par \pard\tx355 VAR = [Project]
+\par \pard\tx355 LN = 1
+\par \pard\tx355 LD(1) = \plain\f0\fs20 \'91\f1 Default\plain\f0\fs20 \'92\f1  or User Defined
+\par \pard\tx355 This is the value displayed as the custom name for the Project module.  If 'Default' is specified, the project file name is picked.  Notice that since there is only one value to read, the number \plain\f0\fs20 \'93\f1 1\plain\f0\fs20 \'94\f1  is written after the variable name.  The value has to be entered as a name you define, or as \plain\f0\fs20 \'91\f1 Default\plain\f0\fs20 \'92\f1 .  LN must be equal to \plain\f0\fs20 \'93\f1 1\plain\f0\fs20 \'94\f1 .
+\par \pard\tx355 
+\par \pard\tx355 VAR = [Icon]
+\par \pard\tx355 LN = 1
+\par \pard\tx355 LD(1) = \plain\f0\fs20 \'91\f1 Default\plain\f0\fs20 \'92\f1  or User Defined
+\par \pard\tx355 This is the value to specify an '.ico'  Icon file to be displayed in the project.  The name of the file must not contain the extension and if 'Default' is written, the BinHexEdit Icon is displayed.  LN must be equal to \plain\f0\fs20 \'93\f1 1\plain\f0\fs20 \'94\f1 .  Only Windows Icon files are accepted.
+\par \pard\tx355 
+\par \pard\tx355 VAR = [File]
+\par \pard\tx355 LN = 1
+\par \pard\tx355 LD(1) = valid, complete drive, directory and file path for the binary.
+\par \pard\tx355 This is another variable that has only one line of data to be read.  It is the path for the binary file to be edited.  LN must be equal to \plain\f0\fs20 \'93\f1 1\plain\f0\fs20 \'94\f1 .
+\par \pard\tx355 
+\par \pard\tx355 VAR = [Patterns]
+\par \pard\tx355 LN = 1 to N, where N = as many as you need
+\par \pard\tx355 LD(1 through N) = User Defined
+\par \pard\tx355 These are the pattern files.  If you look for the pattern files, they have the defined names, preceded by \plain\f0\fs20 \'93\f1 pat_\plain\f0\fs20 \'94\f1  and have the \plain\f0\fs20 \'93\f1 .csv\plain\f0\fs20 \'94\f1  extension.  In this case the number of patterns depends on how many you define.  If there are 3 lines of data, there are 3 different patterns that are used in the project.  Use descriptive names for your patterns.  The minimum number for LN is \plain\f0\fs20 \'93\f1 1\plain\f0\fs20 \'94\f1 .
+\par \pard\tx355 
+\par \pard\tx355 VAR = [Comments]
+\par \pard\tx355 LN = 1 to N, where N = as many as you need
+\par \pard\tx355 LD(1) = \plain\f0\fs20 \'91\f1 Default\plain\f0\fs20 \'92\f1 
+\par \pard\tx355 LD(2  through N) = User Defined
+\par \pard\tx355 These are the names for custom comments that you may want to include in a project.  If you look for the actual text files, they will have the Comment name (Starting with LD(2)), preceded by \plain\f0\fs20 \'93\f1 com_\plain\f0\fs20 \'94\f1  and have the \plain\f0\fs20 \'93\f1 .txt\plain\f0\fs20 \'94\f1  extension.  \plain\f0\fs20 \'91\f1 Default\plain\f0\fs20 \'92\f1  must be included as the first Comment always.
+\par \pard\tx355 
+\par \pard\tx355 The following is a sample \plain\f0\fs20 \'93\f1 Summary.txt\plain\f0\fs20 \'94\f1 
+\par \pard\tx355 
+\par \pard\li715\tx355 \cf1 // A comment line.
+\par \pard\li715\tx355 // The project file name will be displayed as the project name.
+\par \pard\li715\tx355 // In BHE98 the project name will be \plain\f0\fs20\cf1 \'93\f1 MyFlightSim.bhe\plain\f0\fs20\cf1 \'94\f1 .
+\par \pard\li715\tx355 \cf3 [Project]
+\par \pard\li715\tx355 1
+\par \pard\li715\tx355 Default
+\par \pard\li715\tx355 \plain\fs20 
+\par \pard\li715\tx355 \cf1 // The name of the icon file has to be \plain\f0\fs20\cf1 \'93\f1 WW2Fighter.ico\plain\f0\fs20\cf1 \'94\f1 
+\par \pard\li715\tx355 \cf3 [Icon]
+\par \pard\li715\tx355 1
+\par \pard\li715\tx355 WW2Fighter
+\par \pard\li715\tx355 \plain\fs20 
+\par \pard\li715\tx355 \cf1 // Full path
+\par \pard\li715\tx355 \cf3 [File]
+\par \pard\li715\tx355 1
+\par \pard\li715\tx355 C:\'5cProgram Files\'5cMyFlightSim\'5cMyFlightSim.exe
+\par \pard\li715\tx355 \plain\fs20 
+\par \pard\li715\tx355 \cf1 // Files would be called \plain\f0\fs20\cf1 \'93\f1 pat_Fighter.csv\plain\f0\fs20\cf1 \'94\f1  and \plain\f0\fs20\cf1 \'93\f1 pat_Bomber.csv\plain\f0\fs20\cf1 \'94\f1 
+\par \pard\li715\tx355 \cf3 [Patterns]
+\par \pard\li715\tx355 2
+\par \pard\li715\tx355 Fighter
+\par \pard\li715\tx355 Bomber
+\par \pard\li715\tx355 \cf1 // Notice you do not have to skip a line between the last
+\par \pard\li715\tx355 // data item and another comment, or variable.
+\par \pard\li715\tx355 // \plain\f0\fs20\cf1 \'91\f1 Default\plain\f0\fs20\cf1 \'92\f1  is always required as the first data item, but
+\par \pard\li715\tx355 // since there is a custom comment, LN=2.  Notice that
+\par \pard\li715\tx355 // the only custom comment file in this project would be
+\par \pard\li715\tx355 // \plain\f0\fs20\cf1 \'93\f1 com_Weapon Type.txt\plain\f0\fs20\cf1 \'94\f1 
+\par \pard\li715\tx355 \cf3 [Comments]
+\par \pard\li715\tx355 2
+\par \pard\li715\tx355 Default
+\par \pard\li715\tx355 Weapon Type
+\par \pard\tx355 \plain\fs20 
+\par \pard\tx355 
+\par \pard\li355\fi-355\tx355 \f2\b\fs18\cf1 \'b7\tab \f1\fs20 Sections.csv & pat_[Pattern Name].csv
+\par \pard\tx355 \plain\fs20 Before we start, any \cf2 Comma Delimited files used by BHE98 CANNOT read comment lines as in \plain\f0\fs20\cf2 \'93\f1 Summary.txt\plain\f0\fs20\cf2 \'94\f1 .  \plain\fs20 Sections and Patterns go hand in hand and must be discussed together.  We are still assuming the \plain\f0\fs20 \'93\f1 MyFlightSim\plain\f0\fs20 \'94\f1  example.
+\par \pard\tx355 
+\par \pard\tx355 Sections are really the starting offset of a pattern.  If you identify a pattern that is repeated throughout the binary it makes sense to define the pattern, and then have several sections that have that particular pattern.  Read the previous sentence until it makes sense, it will help you understand the concept.
+\par \pard\tx355 
+\par \pard\tx355 For example, flight simulators often use the same types of properties for different airplanes in the program.  These properties can be defined in a variety of ways, but let\plain\f0\fs20 \'92\f1 s say they are all contained in one binary file.  Once you know where they are, there is a good chance that you will find the same types of data in a defined offset distance from a starting point in the file, in byte offsets.
+\par \pard\tx355 
+\par \pard\tx355 Let\plain\f0\fs20 \'92\f1 s say that you know that the data information for a \plain\f0\fs20 \'93\f1 North American P-51 Mustang\plain\f0\fs20 \'94\f1  starts at byte offset 1,345,456 and that 20 bytes from that starting point (1,345,476) you find the number of machine guns that is in the model.  The number is \plain\f0\fs20 \'93\f1 6\plain\f0\fs20 \'94\f1  (represented as a hexadecimal byte \plain\f0\fs20 \'93\f1 06\plain\f0\fs20 \'94\f1  in the file).  For this example every model is separated by 1024 byte segments, so conceptually you could have data for a \plain\f0\fs20 \'93\f1 Messerschmitt Bf 109G\plain\f0\fs20 \'94\f1  at 1024 bytes from where the Mustang is, or at offset 1,346,480.   From what we know of the Mustang, then 20 bytes from the starting offset (1,346,500), the Bf 109G would have info about the number of machine guns that it carries.  For the curious it was 2 in the nose, either 7.9mm or 13mm, plus either a 20mm or 30mm cannon through the propeller hub.  This is enough to illustrate the point.
+\par \pard\tx355 
+\par \pard\tx355 So let\plain\f0\fs20 \'92\f1 s review the definition: Sections are really the starting offset of a pattern.  In our case a pattern would be a Fighter Plane, and both the Mustang and Bf 109G would be sections.  The pattern basically has information of where in the section you will find the data you are looking for, and the section will tell you where the particular pattern can be found, all intertwined.  For example, you can have a house (pattern), with so many rooms, bathrooms, etc, but unless you know its address (section), and who owns it (section name) it does not mean anything.  Ok that is as good of an explanation I could come up with.
+\par \pard\tx355 
+\par \pard\tx355 What if the whole binary is one section?  Fine, define only one pattern, and one section.  What if you do not have a nice pattern repetition as in the airplane example?  Just define as many patterns as you need.  Hopefully you can find a repetition pattern to make your job easier.
+\par \pard\tx355 
+\par \pard\tx355 Before proceeding take a look into the \plain\f0\fs20 \'93\f1 Summary.txt\plain\f0\fs20 \'94\f1  configuration file.  In that file you define how many patterns you will use in your project.  For the example in the MyFlightSim project there are two patterns that we defined, one is Fighter and the other is Bomber.  Let\plain\f0\fs20 \'92\f1 s say that we have the following Fighter pattern sections: the Mustang and the Bf 109G.  We do the same for the Bombers: Boeing B-17 Flying Fortress, and Heinkel He 111.
+\par \pard\tx355 
+\par \pard\tx355 Because the \plain\f0\fs20 \'93\f1 Sections.csv\plain\f0\fs20 \'94\f1  file is easier to understand, let\plain\f0\fs20 \'92\f1 s start with what one would look like for our project:
+\par \pard\tx355 
+\par \pard\li715\tx355 \cf2 4,MyFlightSim,
+\par \pard\li715\tx355 \cf3 North American P-51 Mustang,1,1345456
+\par \pard\li715\tx355 Messerschmitt Bf 109G,1,1346480
+\par \pard\li715\tx355 Boeing B-17 Flying Fortress,2, 1347504
+\par \pard\li715\tx355 Heinkel He 111,2, 1348528
+\par \pard\tx355 \plain\fs20 
+\par \pard\tx355 This is what the interpretation is:
+\par \pard\tx355 
+\par \pard\li715\fi-715\tx355 \cf2 [number of sections in this file = 4],[name of project],[nothing]
+\par \pard\li715\fi-715\tx355 \cf3 [section 1 name],[pattern type 1 = Fighter],[starting offset]
+\par \pard\li715\fi-715\tx355 [section 2 name],[pattern type 1 = Fighter],[starting offset]
+\par \pard\li715\fi-715\tx355 [section 3 name],[pattern type 2 = Bomber],[starting offset]
+\par \pard\li715\fi-715\tx355 [section 4 name],[pattern type 2 = Bomber],[starting offset]
+\par \pard\tx355 \plain\fs20 
+\par \pard\tx355 It is pretty self-explanatory.  The rules are that the first line always need to have the information required, which is the number of sections that are defined.  \cf2 If the number does not match the number of sections, things will get messed up\plain\fs20 .  The project name is not used now but it will in the future so it is a good idea to get in the habit to do it.  The last comma MUST be included.  CSV files are generated by spreadsheets and all lines must have the same number of fields or columns.  \cf2 Make sure your pattern and section names do not contain characters that are invalid to be used in a file name\plain\fs20 .  Read \uldb Names\plain\fs20 {\v E8QX3N} for more information.
+\par \pard\tx355 
+\par \pard\tx355 Notice that because Fighter was listed before Bomber in \plain\f0\fs20 \'93\f1 Summary.txt\plain\f0\fs20 \'94\f1 , Fighter is pattern 1, Bomber is pattern 2 and so forth, as you find more patterns.  Also notice that each section is numbered according to its position, so the Mustang is section 1 of 4, the Bf 109G is 2 of 4, the B-17 is 3 of 4 and the He 111 is 4 of 4.  So if you found that there was another section, then you would have to add the section to the \plain\f0\fs20 \'93\f1 Sections.csv\plain\f0\fs20 \'94\f1  and you would have to update the first line number of sections to 5.
+\par \pard\tx355 
+\par \pard\tx355 Sections do not have to be placed in any particular order because of offset information.  As long as the offset is correct, BHE does not care.  \b That is a good thing.\plain\fs20   You could also place the patterns in any order you whish but realize that if bombers are pattern 1, and fighters are pattern 2, you need to update the \plain\f0\fs20 \'93\f1 Sections.csv\plain\f0\fs20 \'94\f1  file information, otherwise BHE will think that the Mustang is a Bomber, and etc\'85 yikes!!!  If you define new patterns as you find new information in your binary file, you can add the new pattern to \plain\f0\fs20 \'93\f1 Summary.txt\plain\f0\fs20 \'94\f1 , define a new pattern file (soon we will address them) and define whatever sections you find that have the new pattern.
+\par \pard\tx355 
+\par \pard\tx355 So what in the world are pattern files?  Glad you asked.  Pattern files include the information you want to read from a section.  You may want to go get a drink, take a break and review the information in \plain\f0\fs20 \'93\f1 Summary.txt\plain\f0\fs20 \'94\f1  and take a look into the \uldb Data Types in BHE\plain\fs20 {\v 34387E} part of this document.  You already understand what the \plain\f0\fs20 \'93\f1 Sections.csv\plain\f0\fs20 \'94\f1  file look like, and that will help you understand the pattern file.
+\par \pard\tx355 
+\par \pard\tx355 Because you already understand how the \plain\f0\fs20 \'93\f1 .csv\plain\f0\fs20 \'94\f1  files are read by BHE from the Sections example, I will go through one very simple example of a pattern file.  The file for the Fighter pattern defined in the \plain\f0\fs20 \'93\f1 MyFlightSim\plain\f0\fs20 \'94\f1  \plain\f0\fs20 \'93\f1 Summary.txt\plain\f0\fs20 \'94\f1  file has to be called \plain\f0\fs20 \'93\f1 pat_Fighter.csv\plain\f0\fs20 \'94\f1 .  And it could look something like this:
+\par \pard\tx355 
+\par \pard\li715\tx355 \cf2 5,MyFlightSim,,,
+\par \pard\li715\tx355 \cf3 0,Short Name,4,20,1
+\par \pard\li715\tx355 20,Number of Primary Weapons,1,,1
+\par \pard\li715\tx355 21,Type of Primary Weapon,1,,2
+\par \pard\li715\tx355 22,Cruising Speed,9,,1
+\par \pard\li715\tx355 24,Maximum Speed,9,,1
+\par \pard\tx355 \plain\fs20 
+\par \pard\tx355 The interpretation is:
+\par \pard\tx355 
+\par \pard\li715\fi-715\tx355 \cf2 [number of data items to read in this file = 5],[project name],[nothing],[nothing],[nothing]
+\par \pard\li715\fi-715\tx355 \cf3 [offset bytes from starting offset],[data item name],[data type = String],[data length = 20 chars],[default comment]
+\par \pard\li715\fi-715\tx355 [offset bytes from starting offset],[data item name],[data type = Byte],[data length ignored],[default comment]
+\par \pard\li715\fi-715\tx355 [offset bytes from starting offset],[data item name],[data type = Byte],[data length ignored],[Custom Comment = \plain\f0\fs20\cf3 \'93\f1 com_Weapon Type.txt\plain\f0\fs20\cf3 \'94\f1 ]
+\par \pard\li715\fi-715\tx355 [offset bytes from starting offset],[data item name],[data type = Signed Short Integer],[data length ignored],[default comment]
+\par \pard\li715\fi-715\tx355 [offset bytes from starting offset],[data item name],[data type = Signed Short Integer],[data length ignored],[default comment]
+\par \pard\tx355 \plain\fs20 
+\par \pard\tx355 This is also self-explanatory.  The same types of rules that applied to the Sections file also apply here: no comments, first line is different, commas must be included, order of items does not need to be dictated by the order of offset magnitude, number of data items in first line must be equal to the defined data items in the file.
+\par \pard\tx355 
+\par \pard\tx355 Notice that when you load a section into BHE, it associates a pattern with it and it looks for data items that are in relation to the starting offset defined in \plain\f0\fs20 \'93\f1 Sections.csv\plain\f0\fs20 \'94\f1 .  So for the Mustang, the starting offset is 1345456, meaning that to know where a particular data item is, you add the starting offset to [offset bytes from starting offset].  For example the Cruising Speed is located at offset 1345456 + 22 = 1345478, and it is an unsigned short integer that can have a value from 0 to 65,535.  Since short integers take two bytes, it makes sense that the closest item that could be defined after that item (Maximum Speed) would start 2 bytes above 1345478, or 1345456 + 24 = 1345480.
+\par \pard\tx355 
+\par \pard\tx355 \plain\f0\fs20 \'93\f1 Type of Primary Weapon\plain\f0\fs20 \'94\f1  has a custom comment, read more about it in the \plain\f0\fs20 \'93\f1 com_[Comment Name].txt\plain\f0\fs20 \'94\f1  heading below.
+\par \pard\tx355 
+\par \pard\tx355 
+\par \pard\li355\fi-355\tx355 \f2\b\fs18\cf1 \'b7\tab \f1\fs20 [Icon File].ico
+\par \pard\tx355 \plain\fs20 This is a standard Windows Icon file, 16x16 or 32x32.  This file is optionally defined in \plain\f0\fs20 \'93\f1 Summary.txt\plain\f0\fs20 \'94\f1 .  You have the option of assigning \plain\f0\fs20 \'91\f1 Default\plain\f0\fs20 \'92\f1  to the Icon variable in \plain\f0\fs20 \'93\f1 Summary.txt\plain\f0\fs20 \'94\f1  in which case the BHE Icon will be displayed.  Read \uldb File List\plain\fs20 {\v idh_FileList}.  
+\par \pard\tx355 
+\par \pard\tx355 
+\par \pard\li355\fi-355\tx355 \f2\b\fs18\cf1 \'b7\tab \f1\fs20 int_[Section Name].txt
+\par \pard\tx355 \plain\fs20 This file is not required.  It is a simple text file that includes any information about a particular section and is displayed when it is loaded.  For the \plain\f0\fs20 \'93\f1 MyFlightSim\plain\f0\fs20 \'94\f1  example, you could write a short text file about each airplane.  For the file to be loaded, it has to contain the Section\plain\f0\fs20 \'92\f1 s name.  For example if you wanted to write an intro for the Mustang, the file would HAVE to be called:  \plain\f0\fs20 \'93\f1 int_North American P-51 Mustang.txt\plain\f0\fs20 \'94\f1 .
+\par \pard\tx355 
+\par \pard\li355\fi-355\tx355 \f2\b\fs18\cf1 \'b7\tab \f1\fs20 com_[Comment Name].txt
+\par \pard\tx355 \plain\fs20 Read \uldb File List\plain\fs20 {\v idh_FileList}.  For the \plain\f0\fs20 \'93\f1 MyFlightSim\plain\f0\fs20 \'94\f1  example there are two comments available from \plain\f0\fs20 \'93\f1 Summary.txt\plain\f0\fs20 \'94\f1 , the \plain\f0\fs20 \'91\f1 Default\plain\f0\fs20 \'92\f1  comments, which are always required, and the \plain\f0\fs20 \'93\f1 Weapon Type\plain\f0\fs20 \'94\f1 .  Default is comment 1, and is always displayed whenever you are editing a data item in the BHE Module Editor.  The information displayed is the range for the particular data type, as defined in \uldb Data Types in BHE\plain\fs20 {\v 34387E}.  If the particular data item you are editing would be better understood with some explanation, you could generate a plain text document that gets displayed in the Online Help Window whenever you are editing it.
+\par \pard\tx355 
+\par \pard\tx355 Let\plain\f0\fs20 \'92\f1 s say one of the items in the Fighter pattern is the Weapon type that a fighter has.  If the weapons were of type Byte, any value from 0-255 would be taken, but perhaps the original program only understands values 1-10, and they are defined as:
+\par \pard\tx355 
+\par \pard\li715\tx355 1) Light machine gun
+\par \pard\li715\tx355 2) Machine gun
+\par \pard\li715\tx355 3) Light cannon
+\par \pard\li715\tx355 4) Cannon
+\par \pard\li715\tx355 5) Light rocket
+\par \pard\li715\tx355 6) Rocket
+\par \pard\li715\tx355 7) Light bomb
+\par \pard\li715\tx355 8) Medium bomb
+\par \pard\li715\tx355 9) Heavy bomb
+\par \pard\li715\tx355 10) Camera
+\par \pard\li715\tx355 11) Dam Buster
+\par \pard\li715\tx355 12) Atomic Bomb
+\par \pard\tx355 
+\par \pard\tx355 The file would have to be called \plain\f0\fs20 \'93\f1 com_Weapon Type.txt\plain\f0\fs20 \'94\f1 .
+\par \pard\tx355 
+\par \pard\tx355 
+\par \pard\li355\fi-355\tx355 \f2\b\fs18\cf1 \'b7\tab \f1\fs20 BHE Section Patch File
+\par \pard\tx355 \plain\fs20 Read \uldb File List\plain\fs20 {\v idh_FileList} for a description.  The main idea is to save actual data from a binary so that later on you can retrieve. You can save a type of file that can let you write from the actual data in a file, or desired data, so that a new configuration can come up automatically.  It is hard to explain, so let\plain\f0\fs20 \'92\f1 s go through an example.  The Patch files look somewhat like the pattern files but they contain data read from the executable, or from changes made in the Module Editor.  Here is an example of what a Default patch file for the Mustang would look like:
+\par \pard\tx355 
+\par \pard\li715\tx355 \cf2 1345456,5,North American P-51 Mustang(Default),1
+\par \pard\li715\tx355 \cf3 0,4,20,P-51 Mustang
+\par \pard\li715\tx355 20,1,,6
+\par \pard\li715\tx355 21,1,,2
+\par \pard\li715\tx355 22,9,,370
+\par \pard\li715\tx355 24,9,,437
+\par \pard\tx355 \plain\fs20 
+\par \pard\tx355 The interpretation is:
+\par \pard\tx355 
+\par \pard\li715\fi-715\tx355 \cf2 [starting offset for the section],[number of data items to read],[name of patch],[section type = 1, Fighter]
+\par \pard\li715\fi-715\tx355 \cf3 [offset bytes from starting offset],[data type = String],[data length = 20 chars],[data from binary file]
+\par \pard\li715\fi-715\tx355 [offset bytes from starting offset],[data type = Byte],[data length ignored], [data from binary file]
+\par \pard\li715\fi-715\tx355 [offset bytes from starting offset],[data type = Byte],[data length ignored], [data from binary file]
+\par \pard\li715\fi-715\tx355 [offset bytes from starting offset],[data type = Signed Short Integer],[data length ignored],[data from binary file]
+\par \pard\li715\fi-715\tx355 [offset bytes from starting offset],[data type = Signed Short Integer],[data length ignored],[data from binary file]
+\par \pard\tx355 \plain\fs20 
+\par \pard\tx355 Notice that the [offset bytes from starting offset] are the same as in the pattern file.  That is because the patch file is very similar to a pattern file, but it also includes information about the starting offset, so that a section is defined, and it also contains data from the binary.  If you were to write to the executable with patch you would basically be writing the shown values to the determined offsets as the indicated data types.  The patches became very useful if you actually change the settings in the binary and you want to be able to load that different setting at a later time.  Let\plain\f0\fs20 \'92\f1 s say that you were able to completely create a new airplane.  Off course the data would be different than the Mustang.  If you wanted to save the stats about your new plane you could do so with a patch file.
+\par \pard\tx355 
+\par \pard\tx355 When you create a patch file, you have three choices for the starting offset:
+\par \pard\li355\fi-355\tx355 \f2\fs18 \'b7\tab \f1\fs20 Starting offset of the current section (Save the current stats of the Mustang), by default, file would be called \plain\f0\fs20 \'93\f1\cf3 bhep_North American P-51 Mustang(Default).csv\plain\f0\fs20 \'94\f1 , although the user would be able to name it differently.
+\par \f2\fs18 \'b7\tab \f1\fs20 Starting offset of a different section (Save the current stats of the Mustang into a similar pattern section, for example, the Bf 109G), by default, file would be called \plain\f0\fs20 \'93\f1\cf3 bhep_North American P-51 Mustang(Messerschmitt Bf 109G).csv\plain\f0\fs20 \'94\f1 , although the user would be able to name it differently.
+\par \pard\li355\fi-355\tx355 \f2\fs18 \'b7\tab \f1\fs20 No starting offset (The user chooses which similar pattern section to write the stats to at write time.), by default, file would be called \plain\f0\fs20 \'93\f1\cf3 bhep_North American P-51 Mustang(Offset-Free).csv\plain\f0\fs20 \'94\f1 , although the user would be able to name it differently.
+\par \pard\tx355 
+\par \pard\tx355 Why use these patches?  Once you understand them, they are easy to edit.  Eventually the plan is for a separate patch write utility to become available.  Currently you have to perform patch operations from the BHE environment.
+\par \page
+{\up +}{\footnote\pard\plain{\up +} BROWSE0001:0006}
+{\up $}{\footnote\pard\plain{\up $} Manually Editing Files}
+{\up #}{\footnote\pard\plain{\up #} TMQ.YP}
+\pard\keepn \b\fs24\cf1 Manually Editing Files
+\par \pard \plain\fs20 
+\par You can manually edit any of the script files in a project.  Those include the \plain\f0\fs20 \'93\f1 .txt\plain\f0\fs20 \'94\f1  and \plain\f0\fs20 \'93\f1 .csv\plain\f0\fs20 \'94\f1  files.  If you are planning to edit files manually, which is a must at this point since the Project Generator and Editor has not been coded yet, make sure you carefully understand the rules for each file.
+\par 
+\par The text files can be edited with any text editor out there, such as the one that ships with \i Windows 95/98\plain\fs20 , the simple yet useful \i Notepad\plain\fs20  (\plain\f0\fs20 \'93\f1 notepad.exe\plain\f0\fs20 \'94\f1 ).  You could use rich text editors such as \i MS Windows Word Pad, MS Word, MS Works, Lotus AMI Pro, Novell Word Perfect\plain\fs20 , etc, as long as you save the file in TEXT format.
+\par \pard 
+\par The comma-delimited files are text files that can also be edited using a text editor.  An easier way to do this if you are planning to edit several lines, maybe to use a spreadsheets program.  Spreadsheet programs such as \i MS Excel, MS Works, Lotus 123, and Borland/Novell Quattro-Pro\plain\fs20  enable users to save files using a text only way to delimit column fields, with either TABS or COMMAS.  BinHexEdit uses commas to delimit fields.  If you wanted to edit a \plain\f0\fs20 \'93\f1 .csv\plain\f0\fs20 \'94\f1  file using Excel, for example, you could open the file in Excel, edit the fields with the desired values, and then close it and save it using the Comma Delimited format.
+\par \pard 
+\par Some spreadsheets programs automatically add double-quotes around non-numerical values, which are considered to be strings.  I have tested with these files and everything seems to be OK, because VB5 strips the double-quotes away from strings.  I would say if you can choose whether the files are generated with the quotes or not, choose no, since that will save a few bytes per file.  \cf2 There is one exception to this rule, patch file data that is supposed to be String, has to have double quotes around them.
+\par \pard \plain\fs20 
+\par Where to go from here?  Based on the information included in this document and with some practice, you should be able to start building projects from scratch until I come up with a project-designing tool, which will be the next thing I work on BinHexEdit.
+\par 
+\par I suggest for you to take a look at the OPTPhyzBoP project module that came with this release.  That module works with the Star Wars space flight simulator X-Wing vs. TIE-Fighter version 2.0 (Balance of Power).  If you own that flight simulator you will be able to edit several parameters of the ships in the executable.
+\par \page
+{\up +}{\footnote\pard\plain{\up +} BROWSE0001:0007}
+{\up $}{\footnote\pard\plain{\up $} Names}
+{\up #}{\footnote\pard\plain{\up #} E8QX3N}
+\pard\keepn \b\fs24\cf1 Names
+\par \pard \plain\fs20  
+\par The actual Project Name, Section Names, Pattern Names, Custom Comments are used as identifiers for the name of the actual files.  Do not use characters that are not valid for file names in Windows.  These are:
+\par \pard\li355\fi-355\tx355 \f2\fs18 \'b7\tab \f1\fs20 Slashes\tab \tab / and \'5c
+\par \f2\fs18 \'b7\tab \f1\fs20 Colon\tab \tab :
+\par \f2\fs18 \'b7\tab \f1\fs20 Asterisk\tab \tab *
+\par \f2\fs18 \'b7\tab \f1\fs20 Question Mark\tab ?
+\par \f2\fs18 \'b7\tab \f1\fs20 Double Quote\tab \plain\f0\fs20 \'93\f1 
+\par \f2\fs18 \'b7\tab \f1\fs20 Logical Or\tab \tab |
+\par \f2\fs18 \'b7\tab \f1\fs20 Larger/Smaller\tab < and >
+\par \page
+{\up +}{\footnote\pard\plain{\up +} BROWSE0001:0008}
+{\up $}{\footnote\pard\plain{\up $} Intel Pentium Floating Point Issues}
+{\up #}{\footnote\pard\plain{\up #} E4443G}
+\pard\keepn \b\fs24\cf1 Intel Pentium Floating Point Issues
+\par \pard \plain\fs20 
+\par Older Pentium (Intel Chip) PCs may have the floating decimal point problem.  This problem occurred in one of the PCs tested.  It concerns single and double precision data written in the Module Editor.  The closer you get to the known range for single and double data types, the more of a chance for error you will run the risk.
+\par 
+\par If you changed the value of a single or a double data point, the PC may not detect that the number is out of range, as a result, if you write a patch for that section you may generate erroneous data.  You run the same risk if you save directly to the Binary from the Module Editor.  In this case you will most certainly corrupt the binary file upon loading the patch.  For an interval of the same magnitude as the data type (4 bytes for single, 8 bytes for double), null characters will be written.
+\par \page
+{\up +}{\footnote\pard\plain{\up +} BROWSE0001:0009}
+{\up $}{\footnote\pard\plain{\up $} Data Types in BinHexEdit}
+{\up #}{\footnote\pard\plain{\up #} 34387E}
+\pard\keepn \b\fs24\cf1 Data Types in BinHexEdit
+\par \pard \plain\fs20 
+\par The pattern and patch files used with BHE have information about what type of data is being read.  Depending on the type of data being used, the information and size of data in bytes that is understood by the computer varies.  The following are the data types that BHE currently understands:
+\par 
+\par \trowd\trgaph105\trleft-106 \cellx1075\cellx3415\cellx4675\cellx9535\pard\intbl\qc \b\cf4 BHE type\cell\pard \pard\intbl\qc \pard\intbl Data Type\cell\pard \pard\intbl \pard\intbl\qc Byte size\cell\pard \pard\intbl\qc \pard\intbl Valid Range\cell\intbl\row
+\trowd\trgaph105\trleft-106 \cellx1075\cellx3415\cellx4675\cellx9535\pard\intbl \pard\intbl\qc \plain\b\fs20 1\cell\pard \pard\intbl\qc \pard\intbl \plain\fs20 Byte\cell\pard \pard\intbl \pard\intbl\qc 1\cell\pard \pard\intbl\qc \pard\intbl 0 to 255\cell\intbl\row
+\trowd\trgaph105\trleft-106 \cellx1075\cellx3415\cellx4675\cellx9535\pard\intbl \pard\intbl\qc \b 2\cell\pard \pard\intbl\qc \pard\intbl \plain\fs20 Signed Short Integer\cell\pard \pard\intbl \pard\intbl\qc 2\cell\pard \pard\intbl\qc \pard\intbl -32,768 to 32,767\cell\intbl\row
+\trowd\trgaph105\trleft-106 \cellx1075\cellx3415\cellx4675\cellx9535\pard\intbl \pard\intbl\qc \b 3\cell\pard \pard\intbl\qc \pard\intbl \plain\fs20 Signed Long Integer\cell\pard \pard\intbl \pard\intbl\qc 4\cell\pard \pard\intbl\qc \pard\intbl -2,147,483,648 to 2,147,483,647\cell\intbl\row
+\trowd\trgaph105\trleft-106 \cellx1075\cellx3415\cellx4675\cellx9535\pard\intbl \pard\intbl\qc \b 4\cell\pard \pard\intbl\qc \pard\intbl \plain\fs20 String (*)\cell\pard \pard\intbl \pard\intbl\qc 1 to 63,000\cell\pard \pard\intbl\qc \pard\intbl Must specify length up to 63,000 characters\cell\intbl\row
+\trowd\trgaph105\trleft-106 \cellx1075\cellx3415\cellx4675\cellx9535\pard\intbl \pard\intbl\qc \b 5\cell\pard \pard\intbl\qc \pard\intbl \plain\fs20 Double-precision floating point\cell\pard \pard\intbl \pard\intbl\qc 8\cell\pard \pard\intbl\qc \pard\intbl -1.79769313486232E308 to -4.94065645841247E-324 or 4.94065645841247E-324 to 1.79769313486232E308\cell\intbl\row
+\trowd\trgaph105\trleft-106 \cellx1075\cellx3415\cellx4675\cellx9535\pard\intbl \pard\intbl\qc \b 6\cell\pard \pard\intbl\qc \pard\intbl \plain\fs20 Single-precision floating point\cell\pard \pard\intbl \pard\intbl\qc 4\cell\pard \pard\intbl\qc \pard\intbl -3.402823E38 to -1.401298E-45 or 1.401298E-45 to 3.402823E38\cell\intbl\row
+\trowd\trgaph105\trleft-106 \cellx1075\cellx3415\cellx4675\cellx9535\pard\intbl \pard\intbl\qc \b 9\cell\pard \pard\intbl\qc \pard\intbl \plain\fs20 Unsigned Short Integer\cell\pard \pard\intbl \pard\intbl\qc 2\cell\pard \pard\intbl\qc \pard\intbl 0 to 65,535\cell\intbl\row
+\pard\tx355 
+\par (*)\tab Must specify length.
+\par \page
+{\up +}{\footnote\pard\plain{\up +} BROWSE0001:000a}
+{\up $}{\footnote\pard\plain{\up $} Disclaimer and License}
+{\up #}{\footnote\pard\plain{\up #} 10_IGRY}
+\pard\keepn \b\fs24\cf1 Disclaimer and License
+\par \pard \plain\fs20 
+\par By using this software you are committing yourself to the information written below, and you are responsible for knowing this whether you read it or not.  If you do not agree, uninstall/erase this software from your computer.  
+\par 
+\par \pard\li355\fi-355\tx355 \f2\fs18 \'b7\tab \f1\fs20 Author, or author, or \plain\f0\fs20 \'93\f1 I\plain\f0\fs20 \'94\f1 :  Demian \plain\f0\fs20 \'91\f1 Demon\plain\f0\fs20 \'92\f1  Souza
+\par \f2\fs18 \'b7\tab \f1\fs20 User or user, or \plain\f0\fs20 \'93\f1 you\plain\f0\fs20 \'94\f1 : Whoever is using this software
+\par \pard\tx355 
+\par \pard\tx355 \b BinHexEdit (BHE98) Versions 0.5.25, Copyright 1998 \plain\f0\b\fs20 \'96\f1  Demian Vieira de Souza
+\par \pard\tx355 All Rights Reserved
+\par \pard\tx355 \plain\fs20 
+\par \pard\tx355 BinHexEdit (BHE98), OPTSub, DemonSoft, i32 software and trademarks are copyrighted by Demian Souza, 1998, and provided as is.  No warranty shall be granted.  The author is not responsible for anything, positive or negative, resulting from the use of this software.  The Author can change this information at any time without further notice, and may interpret it in whichever way is most beneficial to the Author.
+\par \pard\tx355 
+\par \pard\tx355 \b\ul\cf2 WARNING:\plain\fs20  This software may only be used for personal entertainment.  Do not use pirated software. The author is not responsible and is not accountable for people who choose to break the law.  The author is not responsible if it is illegal for you to possess a copy of this software under any circumstance.  By distributing copyrighted material you are breaking the law.  BinHexEdit is meant to be a programming and gaming tool to be used for personal entertainment only.  BinHexEdit can only be used for editing of data items within a binary file.  It does not change the original logic of the code that was written by the authors of a program.  Malicious hacking of copyrighted code is a serious international crime, especially if the intent is to de-compile an executable, including the executable code for this program.  The executable code in an '.exe' file is the intellectual property of the programmers who wrote it, it is the product of several man-hours.  Piracy is a serious crime.  Support programmers by buying their products.
+\par \pard\tx355 
+\par \pard\tx355 The Author is not responsible for the accuracy of the information in this document.  The Author is not responsible for any damage, malfunction, or anything else resulting from following instructions, suggestions, recommendations in this manual.  The Author is not responsible if this documentation is erased, altered, or misused.  The Author is not responsible if you do not understand what is written here, whether you do not understand the concepts, do not read English, or do not read at all.  If you live in a country that makes it unlawful for you to download software because of internal security issues, and you downloaded BinHexEdit, you may be Breaking the Law in you country.  The Author is not responsible or liable for your actions.  The Author is not responsible or liable for any information that should have been mentioned in this documentation but was not included here, no matter what circumstances caused it.
+\par \pard\tx355  
+\par \pard\tx355 Provided the above condition is met, the User of this software is granted a FREE license.  This software may NOT be sold in any form.  You may make as many copies of the setup files as you need, but you may NOT sell this without the expressed authorization of the Author, under a legally binding contract.  This software is NOT associated with any for-profit entity, and may not be sold or distributed by such an entity without the expressed authorization of the Author, under a legally binding contract.  The user is prohibited to alter the contents of any distributed file, unless the Author clearly authorizes it. BHE98 may only be distributed via the Internet, and Free of Charge.
+\par \pard\tx355 
+\par \pard\tx355 The Author is not associated with any products, persons, companies, or entities mentioned in this document.  Any companies mentioned are mentioned as common knowledge.  Any trademarks, copyrights belong to their respective owners.  The Author does not endorse any of the products or persons mentioned here.  No company, product, or person mentioned in this document is related in any way shape or form to the Author.
+\par \page
+{\up +}{\footnote\pard\plain{\up +} BROWSE0001:000b}
+{\up $}{\footnote\pard\plain{\up $} Credits}
+{\up #}{\footnote\pard\plain{\up #} idh_Credits}
+\pard\keepn \b\fs24\cf1 Credits
+\par \pard \plain\fs20 
+\par \b\cf5 The BinHexEdit development team:
+\par \pard\li355\fi-355\tx355 \plain\f2\b\fs18 \'b7\tab \f1\fs20 D. \plain\f0\b\fs20 \'93\f1 Demon\plain\f0\b\fs20 \'94\f1  Souza:\plain\fs20  Programming, Documentation, Code Testing, Script Rules, OPTPhyzBoP Module, and hours of personal non-paid time.
+\par \f2\b\fs18 \'b7\tab \f1\fs20 J. \plain\f0\b\fs20 \'93\f1 Jai\plain\f0\b\fs20 \'94\f1  Souza:\plain\fs20  Personal support, hours of patience, application layout, user testing.
+\par \f2\b\fs18 \'b7\tab \f1\fs20 God:  \plain\fs20 Universe, and a series of events in the last few billion years that eventually lead to the production of BinHexEdit.
+\par \pard\tx355 
+\par \pard\tx355 \b\cf5 Special Thanks:
+\par \pard\li355\fi-355\tx355 \plain\f2\fs18 \'b7\tab \f1\fs20 For the support I received from several members of the OPT Project, in particular \b Jesse \plain\f0\b\fs20 \'93\f1 Bobonugget\plain\f0\b\fs20 \'94\f1  Kaufman, Dreddnott, Andy Kroell, Argath, Steele, Stephane Pare, Matt Pinick, Jamison "Atruejedi" Geibel.\plain\fs20 
+\par \pard\tx355 
+\par \pard\tx355 \b\cf5 Inspiration:
+\par \pard\li355\fi-355\tx355 \plain\f2\b\fs18 \'b7\tab \f1\fs20 George Lucas: \plain\fs20 Star Wars Trilogy, in a Galaxy far, far away\'85
+\par \f2\b\fs18 \'b7\tab \f1\fs20 Jack Hartman: \plain\fs20 Universal Game Editor
+\par \f2\b\fs18 \'b7\tab \f1\fs20 Lawrence Holland: \plain\fs20 every flight simulator put out by Lucas Arts, Totally Games
+\par \f2\b\fs18 \'b7\tab \f1\fs20 Lucas Arts and Totally Games: \plain\fs20 Secret Weapons of the Luftwaffe, X-Wing, TIE-Fighter, X-Wing vs. TIE-Fighter, etc
+\par \f2\b\fs18 \'b7\tab \f1\fs20 Harry \plain\f0\b\fs20 \'93\f1 Lt. Hag\plain\f0\b\fs20 \'94\f1  Knowlman:\plain\fs20  OPT Extraordinaire (OPT Project), OPT Research, QBASIC OPTUtils
+\par \f2\b\fs18 \'b7\tab \f1\fs20 Mark Samios: \plain\fs20 The TIE-Fighter programming Whiz
+\par \pard\li355\fi-355\tx355 \f2\b\fs18 \'b7\tab \f1\fs20 Evan Sabateli: \plain\fs20 Missing XvT coding Whiz
+\par \f2\b\fs18 \'b7\tab \f1\fs20 Troy Dangerfield: \plain\fs20 XvTEd, premier XvT mission editor
+\par \f2\b\fs18 \'b7\tab \f1\fs20 Michael Andersen: \plain\fs20 MxvTEd, premier XvT craft editor
+\par \f2\b\fs18 \'b7\tab \f1\fs20 James \plain\f0\b\fs20 \'93\f1 Defiant\plain\f0\b\fs20 \'94\f1  Lupiani: \plain\fs20 OPTEdit98, the future of OPT editing
+\par \f2\b\fs18 \'b7\tab \f1\fs20 David Connor: \plain\fs20 ShipSet Launcher, the premier XvT launcher of missions with new craft
+\par \f2\b\fs18 \'b7\tab \f1\fs20 Jedi Master Rabidness: \plain\fs20 UGE Expert, Slicer Master
+\par \f2\b\fs18 \'b7\tab \f1\fs20 Draconious:  \plain\fs20 Slicer master, Draconious Ship Patch
+\par \pard\li355\fi-355\tx355 \f2\b\fs18 \'b7\tab \f1\fs20 Marcos Edson: \plain\fs20 Cockpit designer
+\par \f2\b\fs18 \'b7\tab \f1\fs20 Datamaster: \plain\fs20 Webmaster of Datamaster XvT Site
+\par \f2\b\fs18 \'b7\tab \f1\fs20 A guy called StealthJedi\'85\plain\fs20   who really humbles me, OPT Explorer
+\par \f2\b\fs18 \'b7\tab \f1\fs20 OPT Project Members:\plain\fs20  \cf3 www.empireone.net/~datamaster/xvt.html\plain\fs20 
+\par \page
+{\up +}{\footnote\pard\plain{\up +} BROWSE0001:000c}
+{\up $}{\footnote\pard\plain{\up $} About the Author}
+{\up #}{\footnote\pard\plain{\up #} idh_Author}
+\pard\keepn \b\fs24\cf1 About the Author
+\par \pard \plain\fs20 
+\par I have always been interested in programming for personal use, but I never just sat down and wrote anything besides those exercises required by classes.  I also like computer games.  I have personally purchased every version of every flight simulator put out by Lucas Arts, from \plain\f0\fs20 \'93\f1 Their Finest Hour \plain\f0\fs20 \'96\f1  Battle of Britain\plain\f0\fs20 \'94\f1  to X-Wing Collector Series, and have loved every one of them.  After stumbling upon Datamaster\plain\f0\fs20 \'92\f1 s WEB site I got a hold of XvTEd, and every now and then stopped by to see if a new version came out.
+\par \pard 
+\par Eventually Lt. Hag showed up and started the OPT Project, dedicated to research of the 3D models used in the X-Wing vs. TIE-Fighter (XvT).  I thought that was very interesting, and it actually caused me to buy Balance of Power, the expansion pack for XvT.  I thought it was amazing how people from all over the world started working on this project, gamers, 3D designers, CAD experts, programmers, slicers, and etc, just because they loved Star Wars and the game.  Eventually I wrote OPTSub and now I am working on BinHexEdit.  BinHexEdit is a more audacious project than OPTSub though because it covers more than XvT related stuff.  Again I hope you enjoy it.  Let me know what you think, you can contact me via e-mail or you can visit my web page, listed below:
+\par \pard 
+\par \pard\li355\fi-355\tx355 \f2\fs18\cf3 \'b7\tab \f1\fs20 mailto:lostamaleslocos@usa.net
+\par \f2\fs18 \'b7\tab \f1\fs20 http://www.cyberramp.net/~djsouza/dzone/xvt
+\par \f2\fs18 \'b7\tab \f1\fs20 mailto:djsouza@cyberramp.net
+\par \pard\tx355 
+\par \pard\tx355 \plain\fs20 By the way, \plain\f0\fs20 \'93\f1 Demon\plain\f0\fs20 \'94\f1  is a nickname given to me by my buddies in school\'85  I guess it stuck.
+\par }

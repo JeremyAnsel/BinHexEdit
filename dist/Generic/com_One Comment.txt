@@ -1,0 +1,3 @@
+Example of a data comment file, "com_One Comment.txt".  Here you would enter some kind of comment that relates to valid values for the particular file you are editing.
+
+For example, some games have certain variables that will accept only a particular set of values.  So if this what a field in your section that took Bytes, then the valid values would be 0 through 255, but maybe there are only 3 valid numbers used in the game:  110, 140 and 170.

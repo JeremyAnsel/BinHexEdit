@@ -1,0 +1,93 @@
+﻿<Window x:Class="BinHexEdit.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:BinHexEdit"
+        mc:Ignorable="d"
+        Title="{Binding Project.FileNameShort, StringFormat='BinHexEdit v2.0 {0}', FallbackValue='BinHexEdit v2.0'}"
+        Height="400" Width="650"
+        UseLayoutRounding="True">
+    <Window.Resources>
+        <Style TargetType="{x:Type TextBox}">
+            <Style.Triggers>
+                <Trigger Property="Validation.HasError" Value="True">
+                    <Setter Property="ToolTip" Value="{Binding RelativeSource={x:Static RelativeSource.Self}, Path=(Validation.Errors)[0].ErrorContent}" />
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+    </Window.Resources>
+    <DockPanel>
+        <ToolBar DockPanel.Dock="Top" ToolBarTray.IsLocked="True">
+            <Button x:Name="openButton" Content="Open BHE..." Click="openButton_Click" />
+            <Button x:Name="selectButton" Content="Select BIN..." Click="selectButton_Click" />
+            <Button x:Name="writeButton" Content="Write to binary file" Click="writeButton_Click" />
+            <Button x:Name="resetButton" Content="Reset values" Click="resetButton_Click" />
+            <Separator />
+            <Image Height="20" Width="20" Margin="5 0" Source="{Binding Project, Converter={x:Static local:IconConverter.Default}}" />
+            <TextBlock Text="{Binding Project.ProjectName}" />
+        </ToolBar>
+        <Grid DockPanel.Dock="Top">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="30" />
+                <ColumnDefinition />
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition />
+                <RowDefinition />
+            </Grid.RowDefinitions>
+            <TextBlock Grid.Column="0" Grid.Row="0" Text="BHE: " />
+            <TextBlock Grid.Column="1" Grid.Row="0" Text="{Binding Project.FileName}" />
+            <TextBlock Grid.Column="0" Grid.Row="1" Text="BIN: " />
+            <TextBlock Grid.Column="1" Grid.Row="1" Text="{Binding Project.BinFilePath}" />
+        </Grid>
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="3*" />
+                <ColumnDefinition Width="2*" />
+            </Grid.ColumnDefinitions>
+            <DockPanel Grid.Column="0" Grid.Row="0">
+                <ComboBox DockPanel.Dock="Top"
+                      ItemsSource="{Binding Project.Sections}"
+                      IsSynchronizedWithCurrentItem="True" />
+                <ListView Grid.Column="0" Grid.Row="0"
+                      ItemsSource="{Binding Project.Sections/Patterns}"
+                      IsSynchronizedWithCurrentItem="True"
+                      SelectionMode="Single">
+                    <ListView.View>
+                        <GridView>
+                            <GridViewColumn Header="Offset" DisplayMemberBinding="{Binding Offset}" />
+                            <GridViewColumn Header="Name" DisplayMemberBinding="{Binding Name}" />
+                            <GridViewColumn Header="Type" DisplayMemberBinding="{Binding DataType}" Width="50" />
+                            <GridViewColumn Header="Value">
+                                <GridViewColumn.CellTemplate>
+                                    <DataTemplate>
+                                        <TextBox Text="{Binding Value, UpdateSourceTrigger=PropertyChanged, ValidatesOnExceptions=True}" Width="100" />
+                                    </DataTemplate>
+                                </GridViewColumn.CellTemplate>
+                            </GridViewColumn>
+                        </GridView>
+                    </ListView.View>
+                </ListView>
+            </DockPanel>
+            <Grid Grid.Column="1" Grid.Row="0">
+                <Grid.RowDefinitions>
+                    <RowDefinition />
+                    <RowDefinition />
+                </Grid.RowDefinitions>
+                <TextBox Grid.Column="0" Grid.Row="0"
+                 Text="{Binding Project.ProjectText, Mode=OneWay}"
+                 TextWrapping="Wrap"
+                 IsReadOnly="True"
+                 IsReadOnlyCaretVisible="True"
+                 VerticalScrollBarVisibility="Auto" />
+                <TextBox Grid.Column="0" Grid.Row="1"
+                 Text="{Binding Project.Sections/Patterns/Comment, Mode=OneWay}"
+                 TextWrapping="Wrap"
+                 IsReadOnly="True"
+                 IsReadOnlyCaretVisible="True"
+                 VerticalScrollBarVisibility="Auto" />
+            </Grid>
+        </Grid>
+    </DockPanel>
+</Window>

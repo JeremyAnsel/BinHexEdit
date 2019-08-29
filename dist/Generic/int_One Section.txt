@@ -1,0 +1,3 @@
+To edit a cell either double click on it or press enter.
+
+This demonstrates the use of a Section Introduction text file "int_One Section.txt."
