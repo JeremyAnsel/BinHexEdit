@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.24720.0
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32421.90
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinHexEdit", "BinHexEdit\BinHexEdit.csproj", "{0BE4C622-C872-4A5F-8433-550D0ED34DFC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinHexEdit", "BinHexEdit\BinHexEdit.csproj", "{05A10BEB-F5B2-4DBD-BAE1-9315FB9C8AE7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,12 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{0BE4C622-C872-4A5F-8433-550D0ED34DFC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{0BE4C622-C872-4A5F-8433-550D0ED34DFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{0BE4C622-C872-4A5F-8433-550D0ED34DFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{0BE4C622-C872-4A5F-8433-550D0ED34DFC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{05A10BEB-F5B2-4DBD-BAE1-9315FB9C8AE7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05A10BEB-F5B2-4DBD-BAE1-9315FB9C8AE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05A10BEB-F5B2-4DBD-BAE1-9315FB9C8AE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05A10BEB-F5B2-4DBD-BAE1-9315FB9C8AE7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {54B5FBC2-0B78-4675-B909-01473CC535BF}
 	EndGlobalSection
 EndGlobal

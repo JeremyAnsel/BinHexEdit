@@ -3,8 +3,8 @@ BinHexEdit v2
 BinHexEdit is a tool to edit binary file. It uses text based files to create editable modules.
 
 
-BinHexEdit v2 runs on Windows 32/64 bits with the .NET framework 4.0.
-(Windows XP, Windows Vista, Windows 7, Windows 8, or superior)
+BinHexEdit v2 runs on Windows 32/64 bits with the .NET framework 4.8.
+(Windows 7, Windows 8, Windows 10, Windows 11, or superior)
 
 
 BinHexEdit v2 is not based on the v0.5 source code. It was completely rewritten from scratch and only reuses the same files formats.
